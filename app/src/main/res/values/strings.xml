@@ -2,7 +2,6 @@
     <string name="app_name">Enunciate!</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="scored">Scored</string>
     <string name="hello_blank_fragment">Select a category!</string>
     <string-array name="Actions">
         <item>abiding</item>
@@ -492,7 +491,7 @@
         <item>leaving</item>
         <item>lecturing</item>
         <item>lending</item>
-        <item>leveling</item>
+        <item>levelling</item>
         <item>licensing</item>
         <item>licking</item>
         <item>lying</item>
@@ -1334,7 +1333,6 @@
         <item>Konrad Adenauer</item>
         <item>Kylie Minogue</item>
         <item>Lance Armstrong</item>
-        <item>Lech Wałęsa</item>
         <item>Lech Walesa</item>
         <item>Leo Tolstoy</item>
         <item>Leon Trotsky</item>
@@ -2142,7 +2140,7 @@
         <item>computer</item>
         <item>e-reader</item>
         <item>laptop</item>
-        <item>I-Pad</item>
+        <item>iPad</item>
         <item>netbook</item>
         <item>stylus</item>
         <item>pencil</item>
@@ -2205,7 +2203,7 @@
         <item>gondola</item>
         <item>fishing boat</item>
         <item>battleship</item>
-        <item>aircraft arrier</item>
+        <item>aircraft carrier</item>
         <item>clipper</item>
         <item>flatboat</item>
         <item>houseboat</item>
@@ -5143,7 +5141,7 @@
         <item>yellowjack</item>
         <item>yellowtail</item>
         <item>zebra bullhead shark</item>
-        <item>zebrafis</item>
+        <item>zebrafish</item>
         <item>African gray parrot</item>
         <item>African penguin</item>
         <item>American flamingo</item>
@@ -5246,7 +5244,7 @@
         <item>kingfisher</item>
         <item>kite</item>
         <item>kiwi</item>
-        <item>kookaberra</item>
+        <item>kookaburra</item>
         <item>leghorn</item>
         <item>longspur</item>
         <item>loon</item>

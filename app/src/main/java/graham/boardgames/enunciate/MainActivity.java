@@ -1,15 +1,12 @@
 package graham.boardgames.enunciate;
 
-import android.app.ActionBar;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,7 +15,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -118,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
         Collections.shuffle(Arrays.asList(mRandomArray));
         Collections.shuffle(Arrays.asList(mNatureArray));
 
-        mFragmentManagerInitial = getFragmentManager();
+        mFragmentManagerInitial = getSupportFragmentManager();
 
         FragmentTransaction fragmentTransactionInitial = mFragmentManagerInitial.beginTransaction();
         fragmentTransactionInitial.add(R.id.wholeCardArea, mGuessedWordsFragment);
@@ -158,7 +154,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
 
                 actionButton.setBackgroundResource(R.drawable.action_button_pressed);
 
-                mFragmentManager = getFragmentManager();
+                mFragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
                 fragmentTransaction.show(mTopCardFragment);
@@ -197,7 +193,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
 
                 personButton.setBackgroundResource(R.drawable.person_button_pressed);
 
-                mFragmentManager = getFragmentManager();
+                mFragmentManager = getSupportFragmentManager();
 
                 FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
@@ -237,7 +233,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
                 allPlayButton.setBackgroundResource(R.drawable.allplay_button_unpressed);
 
                 objectButton.setBackgroundResource(R.drawable.object_button_pressed);
-                mFragmentManager = getFragmentManager();
+                mFragmentManager = getSupportFragmentManager();
 
                 FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
@@ -276,7 +272,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
 
                 worldButton.setBackgroundResource(R.drawable.world_button_pressed);
 
-                mFragmentManager = getFragmentManager();
+                mFragmentManager = getSupportFragmentManager();
 
                 FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
@@ -316,7 +312,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
 
                 randomButton.setBackgroundResource(R.drawable.random_button_pressed);
 
-                mFragmentManager = getFragmentManager();
+                mFragmentManager = getSupportFragmentManager();
 
                 FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
@@ -356,7 +352,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
 
                 natureButton.setBackgroundResource(R.drawable.nature_button_pressed);
 
-                mFragmentManager = getFragmentManager();
+                mFragmentManager = getSupportFragmentManager();
 
                 FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
@@ -396,7 +392,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
                 allPlayButton.setBackgroundResource(R.drawable.allplay_button_pressed);
                 //allPlayButton.getBackground().setColorFilter(0xFFe0e0e0, PorterDuff.Mode.MULTIPLY);
 
-                mFragmentManager = getFragmentManager();
+                mFragmentManager = getSupportFragmentManager();
 
                 FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
 
@@ -494,7 +490,7 @@ public class MainActivity extends AppCompatActivity implements BlankFragment.OnF
                     }
 
                     mGuessedWordsFragment.showGuessedWords();
-                    mFragmentManager = getFragmentManager();
+                    mFragmentManager = getSupportFragmentManager();
                     FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
                     fragmentTransaction.show(mGuessedWordsFragment);
                     fragmentTransaction.hide(mTopCardFragment);
