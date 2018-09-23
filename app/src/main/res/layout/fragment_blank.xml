@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="layout.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="@string/hello_blank_fragment"
+        android:background="#e0e0e0"
+        android:textSize="20sp"
+        android:textColor="#3B3B3B"
+        android:id="@+id/fragmentText"/>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="✓"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/gotItButton"
+        android:src="@drawable/ic_done_white_48dp"
+        android:background="#4CAF50" />
+
+</LinearLayout>

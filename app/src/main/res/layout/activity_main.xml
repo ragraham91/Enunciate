@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="graham.boardgames.enunciate.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <graham.boardgames.enunciate.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/personButton"
+            android:background="@drawable/person_button_unpressed"
+            android:layout_margin="5dp"
+            android:stateListAnimator="@null"
+
+            />
+    </graham.boardgames.enunciate.SquareButton>
+        <graham.boardgames.enunciate.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/world_button_unpressed"
+            android:id="@+id/worldButton"
+            android:layout_margin="5dp"
+            android:stateListAnimator="@null"
+            />
+        </graham.boardgames.enunciate.SquareButton>
+
+        <graham.boardgames.enunciate.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/object_button_unpressed"
+            android:id="@+id/objectButton"
+            android:layout_margin="5dp"
+            android:stateListAnimator="@null"
+            />
+        </graham.boardgames.enunciate.SquareButton>
+
+        <graham.boardgames.enunciate.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/action_button_unpressed"
+            android:id="@+id/actionButton"
+            android:layout_margin="5dp"
+            android:stateListAnimator="@null" />
+        </graham.boardgames.enunciate.SquareButton>
+
+        <graham.boardgames.enunciate.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/nature_button_unpressed"
+            android:id="@+id/natureButton"
+            android:layout_margin="5dp"
+            android:stateListAnimator="@null"/>
+        </graham.boardgames.enunciate.SquareButton>
+
+        <graham.boardgames.enunciate.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/random_button_unpressed"
+            android:id="@+id/randomButton"
+            android:layout_margin="5dp"
+            android:stateListAnimator="@null"/>
+        </graham.boardgames.enunciate.SquareButton>
+
+        <graham.boardgames.enunciate.SquareButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/allplay_button_unpressed"
+            android:id="@+id/allPlayButton"
+            android:layout_margin="5dp"
+            android:stateListAnimator="@null"/>
+        </graham.boardgames.enunciate.SquareButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wholeCardArea">
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/topCardFrameLayout"
+            android:layout_margin="5dp"></FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/middleCardFrameLayout"
+            android:layout_margin="5dp"></FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/bottomCardFrameLayout"
+            android:layout_margin="5dp"></FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

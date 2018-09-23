@@ -1,0 +1,5350 @@
+<resources>
+    <string name="app_name">Enunciate!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="scored">Scored</string>
+    <string name="hello_blank_fragment">Select a category!</string>
+    <string-array name="Actions">
+        <item>abiding</item>
+        <item>accelerating</item>
+        <item>accepting</item>
+        <item>accomplishing</item>
+        <item>achieving</item>
+        <item>acquiring</item>
+        <item>acting</item>
+        <item>activating</item>
+        <item>adapting</item>
+        <item>adding</item>
+        <item>addressing</item>
+        <item>administering</item>
+        <item>admiring</item>
+        <item>admiting</item>
+        <item>adopting</item>
+        <item>advising</item>
+        <item>affording</item>
+        <item>agreeing</item>
+        <item>alerting</item>
+        <item>alighting</item>
+        <item>allowing</item>
+        <item>altering</item>
+        <item>amusing</item>
+        <item>analyzing</item>
+        <item>announcing</item>
+        <item>annoying</item>
+        <item>answering</item>
+        <item>anticipating</item>
+        <item>apologizing</item>
+        <item>appearing</item>
+        <item>applauding</item>
+        <item>applying</item>
+        <item>appointing</item>
+        <item>appraising</item>
+        <item>appreciating</item>
+        <item>approving</item>
+        <item>arbitrating</item>
+        <item>arguing</item>
+        <item>arising</item>
+        <item>arranging</item>
+        <item>arresting</item>
+        <item>arriving</item>
+        <item>ascertaining</item>
+        <item>asking</item>
+        <item>assembling</item>
+        <item>assessing</item>
+        <item>assisting</item>
+        <item>assuring</item>
+        <item>attaching</item>
+        <item>attacking</item>
+        <item>attaining</item>
+        <item>attempting</item>
+        <item>attending</item>
+        <item>attracting</item>
+        <item>auditing</item>
+        <item>avoiding</item>
+        <item>awaking</item>
+        <item>backing</item>
+        <item>baking</item>
+        <item>balancing</item>
+        <item>banning</item>
+        <item>banging</item>
+        <item>baring</item>
+        <item>batting</item>
+        <item>bathing</item>
+        <item>battling</item>
+        <item>being</item>
+        <item>beaming</item>
+        <item>bearing</item>
+        <item>beating</item>
+        <item>becoming</item>
+        <item>begging</item>
+        <item>beginning</item>
+        <item>behaving</item>
+        <item>beholding</item>
+        <item>belonging</item>
+        <item>bending</item>
+        <item>beseting</item>
+        <item>betting</item>
+        <item>bidding</item>
+        <item>binding</item>
+        <item>biting</item>
+        <item>bleaching</item>
+        <item>bleeding</item>
+        <item>blessing</item>
+        <item>blinding</item>
+        <item>blinking</item>
+        <item>blotting</item>
+        <item>blowing</item>
+        <item>blushing</item>
+        <item>boasting</item>
+        <item>boiling</item>
+        <item>bolting</item>
+        <item>bombing</item>
+        <item>booking</item>
+        <item>boring</item>
+        <item>borrowing</item>
+        <item>bouncing</item>
+        <item>bowing</item>
+        <item>boxing</item>
+        <item>braking</item>
+        <item>branching</item>
+        <item>breaking</item>
+        <item>breathing</item>
+        <item>breeding</item>
+        <item>briefing</item>
+        <item>bringing</item>
+        <item>broadcasting</item>
+        <item>bruising</item>
+        <item>brushing</item>
+        <item>bubbling</item>
+        <item>budgeting</item>
+        <item>building</item>
+        <item>bumping</item>
+        <item>burning</item>
+        <item>bursting</item>
+        <item>burying</item>
+        <item>busting</item>
+        <item>buying</item>
+        <item>buzzing</item>
+        <item>calculating</item>
+        <item>calling</item>
+        <item>camping</item>
+        <item>caring</item>
+        <item>carrying</item>
+        <item>carving</item>
+        <item>casting</item>
+        <item>cataloging</item>
+        <item>catching</item>
+        <item>causing</item>
+        <item>challenging</item>
+        <item>changing</item>
+        <item>charging</item>
+        <item>charting</item>
+        <item>chasing</item>
+        <item>cheating</item>
+        <item>checking</item>
+        <item>cheering</item>
+        <item>chewing</item>
+        <item>choking</item>
+        <item>choosing</item>
+        <item>chopping</item>
+        <item>claiming</item>
+        <item>clapping</item>
+        <item>clarifying</item>
+        <item>classifying</item>
+        <item>cleaning</item>
+        <item>clearing</item>
+        <item>clinging</item>
+        <item>clipping</item>
+        <item>closing</item>
+        <item>clothing</item>
+        <item>coaching</item>
+        <item>coiling</item>
+        <item>collecting</item>
+        <item>colouring</item>
+        <item>combing</item>
+        <item>coming</item>
+        <item>commanding</item>
+        <item>communicating</item>
+        <item>comparing</item>
+        <item>competing</item>
+        <item>compiling</item>
+        <item>complaining</item>
+        <item>completing</item>
+        <item>composing</item>
+        <item>computing</item>
+        <item>conceiving</item>
+        <item>concentrating</item>
+        <item>conceptualizing</item>
+        <item>concerning</item>
+        <item>concluding</item>
+        <item>conducting</item>
+        <item>confessing</item>
+        <item>confronting</item>
+        <item>confusing</item>
+        <item>connecting</item>
+        <item>conserving</item>
+        <item>considering</item>
+        <item>consisting</item>
+        <item>consolidating</item>
+        <item>constructing</item>
+        <item>consulting</item>
+        <item>containing</item>
+        <item>continuing</item>
+        <item>contracting</item>
+        <item>controlling</item>
+        <item>converting</item>
+        <item>coordinating</item>
+        <item>copying</item>
+        <item>correcting</item>
+        <item>correlating</item>
+        <item>costing</item>
+        <item>coughing</item>
+        <item>counselling</item>
+        <item>counting</item>
+        <item>covering</item>
+        <item>cracking</item>
+        <item>crashing</item>
+        <item>crawling</item>
+        <item>creating</item>
+        <item>creeping</item>
+        <item>critiquing</item>
+        <item>crossing</item>
+        <item>crushing</item>
+        <item>crying</item>
+        <item>curing</item>
+        <item>curling</item>
+        <item>curving</item>
+        <item>cutting</item>
+        <item>cycling</item>
+        <item>damming</item>
+        <item>damaging</item>
+        <item>dancing</item>
+        <item>daring</item>
+        <item>dealing</item>
+        <item>decaying</item>
+        <item>deceiving</item>
+        <item>deciding</item>
+        <item>decorating</item>
+        <item>defining</item>
+        <item>delaying</item>
+        <item>delegating</item>
+        <item>delighting</item>
+        <item>delivering</item>
+        <item>demonstrating</item>
+        <item>depending</item>
+        <item>describing</item>
+        <item>deserting</item>
+        <item>deserving</item>
+        <item>designing</item>
+        <item>destroying</item>
+        <item>detailing</item>
+        <item>detecting</item>
+        <item>determining</item>
+        <item>developing</item>
+        <item>devising</item>
+        <item>diagnosing</item>
+        <item>digging</item>
+        <item>directing</item>
+        <item>disagreeing</item>
+        <item>disappearing</item>
+        <item>disapproving</item>
+        <item>disarming</item>
+        <item>discovering</item>
+        <item>disliking</item>
+        <item>dispensing</item>
+        <item>displaying</item>
+        <item>disproving</item>
+        <item>dissecting</item>
+        <item>distributing</item>
+        <item>diving</item>
+        <item>diverting</item>
+        <item>dividing</item>
+        <item>doing</item>
+        <item>doubling</item>
+        <item>doubting</item>
+        <item>drafting</item>
+        <item>dragging</item>
+        <item>draining</item>
+        <item>dramatizing</item>
+        <item>drawing</item>
+        <item>dreaming</item>
+        <item>dressing</item>
+        <item>drinking</item>
+        <item>dripping</item>
+        <item>driving</item>
+        <item>dropping</item>
+        <item>drowning</item>
+        <item>drumming</item>
+        <item>drying</item>
+        <item>dusting</item>
+        <item>dwelling</item>
+        <item>earning</item>
+        <item>eating</item>
+        <item>editing</item>
+        <item>educating</item>
+        <item>eliminating</item>
+        <item>embarrassing</item>
+        <item>employing</item>
+        <item>emptying</item>
+        <item>enacting</item>
+        <item>encouraging</item>
+        <item>ending</item>
+        <item>enduring</item>
+        <item>enforcing</item>
+        <item>engineering</item>
+        <item>enhancing</item>
+        <item>enjoying</item>
+        <item>enlisting</item>
+        <item>ensuring</item>
+        <item>entering</item>
+        <item>entertaining</item>
+        <item>escaping</item>
+        <item>establishing</item>
+        <item>estimating</item>
+        <item>evaluating</item>
+        <item>examining</item>
+        <item>exceeding</item>
+        <item>exciting</item>
+        <item>excusing</item>
+        <item>executing</item>
+        <item>exercising</item>
+        <item>exhibiting</item>
+        <item>existing</item>
+        <item>expanding</item>
+        <item>expecting</item>
+        <item>expediting</item>
+        <item>experimenting</item>
+        <item>explaining</item>
+        <item>exploding</item>
+        <item>expressing</item>
+        <item>extending</item>
+        <item>extracting</item>
+        <item>facing</item>
+        <item>facilitating</item>
+        <item>fading</item>
+        <item>failing</item>
+        <item>fancying</item>
+        <item>fastening</item>
+        <item>faxing</item>
+        <item>fearing</item>
+        <item>feeding</item>
+        <item>feeling</item>
+        <item>fencing</item>
+        <item>fetching</item>
+        <item>fighting</item>
+        <item>filing</item>
+        <item>filling</item>
+        <item>filming</item>
+        <item>finalizing</item>
+        <item>financing</item>
+        <item>finding</item>
+        <item>firing</item>
+        <item>fitting</item>
+        <item>fixing</item>
+        <item>flapping</item>
+        <item>flashing</item>
+        <item>fleeing</item>
+        <item>flinging</item>
+        <item>floating</item>
+        <item>flooding</item>
+        <item>flowing</item>
+        <item>flowering</item>
+        <item>flying</item>
+        <item>folding</item>
+        <item>following</item>
+        <item>fooling</item>
+        <item>forbidding</item>
+        <item>forcing</item>
+        <item>forecasting</item>
+        <item>foregoing</item>
+        <item>foreseeing</item>
+        <item>foretelling</item>
+        <item>forgetting</item>
+        <item>forgiving</item>
+        <item>forming</item>
+        <item>formulating</item>
+        <item>forsaking</item>
+        <item>framing</item>
+        <item>freezing</item>
+        <item>frightening</item>
+        <item>frying</item>
+        <item>gathering</item>
+        <item>gazing</item>
+        <item>generating</item>
+        <item>getting</item>
+        <item>giving</item>
+        <item>glowing</item>
+        <item>gluing</item>
+        <item>going</item>
+        <item>governing</item>
+        <item>grabbing</item>
+        <item>graduating</item>
+        <item>grating</item>
+        <item>greasing</item>
+        <item>greeting</item>
+        <item>grinning</item>
+        <item>grinding</item>
+        <item>gripping</item>
+        <item>groaning</item>
+        <item>growing</item>
+        <item>guaranteeing</item>
+        <item>guarding</item>
+        <item>guessing</item>
+        <item>guiding</item>
+        <item>hammering</item>
+        <item>handing</item>
+        <item>handling</item>
+        <item>handwriting</item>
+        <item>hanging</item>
+        <item>happening</item>
+        <item>harassing</item>
+        <item>harming</item>
+        <item>hating</item>
+        <item>haunting</item>
+        <item>heading</item>
+        <item>healing</item>
+        <item>heaping</item>
+        <item>hearing</item>
+        <item>heating</item>
+        <item>helping</item>
+        <item>hiding</item>
+        <item>hitting</item>
+        <item>holding</item>
+        <item>hooking</item>
+        <item>hoping</item>
+        <item>hoping</item>
+        <item>hovering</item>
+        <item>hugging</item>
+        <item>humming</item>
+        <item>hunting</item>
+        <item>hurrying</item>
+        <item>hurting</item>
+        <item>hypothesizing</item>
+        <item>identifying</item>
+        <item>ignoring</item>
+        <item>illustrating</item>
+        <item>imagining</item>
+        <item>implementing</item>
+        <item>impressing</item>
+        <item>improving</item>
+        <item>improvising</item>
+        <item>including</item>
+        <item>increasing</item>
+        <item>inducing</item>
+        <item>influencing</item>
+        <item>informing</item>
+        <item>initiating</item>
+        <item>injecting</item>
+        <item>injuring</item>
+        <item>inlaying</item>
+        <item>innovating</item>
+        <item>inputing</item>
+        <item>inspecting</item>
+        <item>inspiring</item>
+        <item>installing</item>
+        <item>instituting</item>
+        <item>instructing</item>
+        <item>insuring</item>
+        <item>integrating</item>
+        <item>intending</item>
+        <item>intensifying</item>
+        <item>interesting</item>
+        <item>interfering</item>
+        <item>interlaying</item>
+        <item>interpreting</item>
+        <item>interrupting</item>
+        <item>interviewing</item>
+        <item>introducing</item>
+        <item>inventing</item>
+        <item>inventorying</item>
+        <item>investigating</item>
+        <item>inviting</item>
+        <item>irritating</item>
+        <item>itching</item>
+        <item>jailing</item>
+        <item>jamming</item>
+        <item>jogging</item>
+        <item>joining</item>
+        <item>joking</item>
+        <item>judging</item>
+        <item>juggling</item>
+        <item>jumping</item>
+        <item>justifying</item>
+        <item>keeping</item>
+        <item>kicking</item>
+        <item>killing</item>
+        <item>kissing</item>
+        <item>kneeling</item>
+        <item>knitting</item>
+        <item>knocking</item>
+        <item>knotting</item>
+        <item>knowing</item>
+        <item>labelling</item>
+        <item>landing</item>
+        <item>lasting</item>
+        <item>laughing</item>
+        <item>launching</item>
+        <item>laying</item>
+        <item>leading</item>
+        <item>leaning</item>
+        <item>leaping</item>
+        <item>learning</item>
+        <item>leaving</item>
+        <item>lecturing</item>
+        <item>lending</item>
+        <item>leveling</item>
+        <item>licensing</item>
+        <item>licking</item>
+        <item>lying</item>
+        <item>lifting</item>
+        <item>lighting</item>
+        <item>lightening</item>
+        <item>liking</item>
+        <item>listing</item>
+        <item>listening</item>
+        <item>living</item>
+        <item>loading</item>
+        <item>locating</item>
+        <item>locking</item>
+        <item>logging</item>
+        <item>longing</item>
+        <item>looking</item>
+        <item>losing</item>
+        <item>loving</item>
+        <item>maintaining</item>
+        <item>making</item>
+        <item>manning</item>
+        <item>managing</item>
+        <item>manipulating</item>
+        <item>manufacturing</item>
+        <item>mapping</item>
+        <item>marching</item>
+        <item>marking</item>
+        <item>marketing</item>
+        <item>marrying</item>
+        <item>matching</item>
+        <item>mating</item>
+        <item>mattering</item>
+        <item>meaning</item>
+        <item>measuring</item>
+        <item>meddling</item>
+        <item>mediating</item>
+        <item>meeting</item>
+        <item>melting</item>
+        <item>memorizing</item>
+        <item>mending</item>
+        <item>mentoring</item>
+        <item>milking</item>
+        <item>mining</item>
+        <item>misleading</item>
+        <item>missing</item>
+        <item>misspelling</item>
+        <item>mistaking</item>
+        <item>misunderstanding</item>
+        <item>mixing</item>
+        <item>moaning</item>
+        <item>modelling</item>
+        <item>modifying</item>
+        <item>monitoring</item>
+        <item>mooring</item>
+        <item>motivating</item>
+        <item>mourning</item>
+        <item>moving</item>
+        <item>mowing</item>
+        <item>muddling</item>
+        <item>mugging</item>
+        <item>multiplying</item>
+        <item>murdering</item>
+        <item>nailing</item>
+        <item>naming</item>
+        <item>navigating</item>
+        <item>needing</item>
+        <item>negotiating</item>
+        <item>nesting</item>
+        <item>nodding</item>
+        <item>nominating</item>
+        <item>normalizing</item>
+        <item>noting</item>
+        <item>noticing</item>
+        <item>numbering</item>
+        <item>obeying</item>
+        <item>objecting</item>
+        <item>observing</item>
+        <item>obtaining</item>
+        <item>occurring</item>
+        <item>offending</item>
+        <item>offering</item>
+        <item>officiating</item>
+        <item>opening</item>
+        <item>operating</item>
+        <item>ordering</item>
+        <item>organizing</item>
+        <item>orienting</item>
+        <item>originating</item>
+        <item>overcoming</item>
+        <item>overdoing</item>
+        <item>overdrawing</item>
+        <item>overflowing</item>
+        <item>overhearing</item>
+        <item>overtaking</item>
+        <item>overthrowing</item>
+        <item>owing</item>
+        <item>owning</item>
+        <item>packing</item>
+        <item>paddling</item>
+        <item>painting</item>
+        <item>parking</item>
+        <item>parting</item>
+        <item>participating</item>
+        <item>passing</item>
+        <item>pasting</item>
+        <item>patting</item>
+        <item>pausing</item>
+        <item>paying</item>
+        <item>pecking</item>
+        <item>pedalling</item>
+        <item>peeling</item>
+        <item>peeping</item>
+        <item>perceiving</item>
+        <item>perfecting</item>
+        <item>performing</item>
+        <item>permiting</item>
+        <item>persuading</item>
+        <item>phoning</item>
+        <item>photographing</item>
+        <item>picking</item>
+        <item>piloting</item>
+        <item>pinching</item>
+        <item>pining</item>
+        <item>pinpointing</item>
+        <item>pioneering</item>
+        <item>placing</item>
+        <item>planning</item>
+        <item>planting</item>
+        <item>playing</item>
+        <item>pleading</item>
+        <item>pleasing</item>
+        <item>plugging</item>
+        <item>pointing</item>
+        <item>poking</item>
+        <item>polishing</item>
+        <item>popping</item>
+        <item>possessing</item>
+        <item>posting</item>
+        <item>pouring</item>
+        <item>practicing</item>
+        <item>praising</item>
+        <item>praying</item>
+        <item>preaching</item>
+        <item>preceding</item>
+        <item>predicting</item>
+        <item>preferring</item>
+        <item>preparing</item>
+        <item>prescribing</item>
+        <item>presenting</item>
+        <item>preserving</item>
+        <item>presetting</item>
+        <item>presiding</item>
+        <item>pressing</item>
+        <item>pretending</item>
+        <item>preventing</item>
+        <item>pricking</item>
+        <item>printing</item>
+        <item>processing</item>
+        <item>procuring</item>
+        <item>producing</item>
+        <item>professing</item>
+        <item>programming</item>
+        <item>progressing</item>
+        <item>projecting</item>
+        <item>promising</item>
+        <item>promoting</item>
+        <item>proofreading</item>
+        <item>proposing</item>
+        <item>protecting</item>
+        <item>proving</item>
+        <item>providing</item>
+        <item>publicizing</item>
+        <item>pulling</item>
+        <item>pumping</item>
+        <item>punching</item>
+        <item>puncturing</item>
+        <item>punishing</item>
+        <item>purchasing</item>
+        <item>pushing</item>
+        <item>putting</item>
+        <item>qualifying</item>
+        <item>questioning</item>
+        <item>queuing</item>
+        <item>quitting</item>
+        <item>racing</item>
+        <item>radiating</item>
+        <item>raining</item>
+        <item>raising</item>
+        <item>ranking</item>
+        <item>rating</item>
+        <item>reaching</item>
+        <item>reading</item>
+        <item>realigning</item>
+        <item>realizing</item>
+        <item>reasoning</item>
+        <item>receiving</item>
+        <item>recognizing</item>
+        <item>recommending</item>
+        <item>reconciling</item>
+        <item>recording</item>
+        <item>recruiting</item>
+        <item>reducing</item>
+        <item>referring</item>
+        <item>reflecting</item>
+        <item>refusing</item>
+        <item>regretting</item>
+        <item>regulating</item>
+        <item>rehabilitating</item>
+        <item>reigning</item>
+        <item>reinforcing</item>
+        <item>rejecting</item>
+        <item>rejoicing</item>
+        <item>relating</item>
+        <item>relaxing</item>
+        <item>releasing</item>
+        <item>relying</item>
+        <item>remaining</item>
+        <item>remembering</item>
+        <item>reminding</item>
+        <item>removing</item>
+        <item>rendering</item>
+        <item>reorganizing</item>
+        <item>repairing</item>
+        <item>repeating</item>
+        <item>replacing</item>
+        <item>replying</item>
+        <item>reporting</item>
+        <item>representing</item>
+        <item>reproducing</item>
+        <item>requesting</item>
+        <item>rescuing</item>
+        <item>researching</item>
+        <item>resolving</item>
+        <item>responding</item>
+        <item>restoring</item>
+        <item>restructuring</item>
+        <item>retiring</item>
+        <item>retrieving</item>
+        <item>returning</item>
+        <item>reviewing</item>
+        <item>revising</item>
+        <item>rhyming</item>
+        <item>ridding</item>
+        <item>riding</item>
+        <item>ringing</item>
+        <item>rinsing</item>
+        <item>rising</item>
+        <item>risking</item>
+        <item>robbing</item>
+        <item>rocking</item>
+        <item>rolling</item>
+        <item>rotting</item>
+        <item>rubbing</item>
+        <item>ruining</item>
+        <item>ruling</item>
+        <item>running</item>
+        <item>rushing</item>
+        <item>sacking</item>
+        <item>sailing</item>
+        <item>satisfying</item>
+        <item>saving</item>
+        <item>sawing</item>
+        <item>saying</item>
+        <item>scaring</item>
+        <item>scattering</item>
+        <item>scheduling</item>
+        <item>scolding</item>
+        <item>scorching</item>
+        <item>scraping</item>
+        <item>scratching</item>
+        <item>screaming</item>
+        <item>screwing</item>
+        <item>scribbling</item>
+        <item>scrubbing</item>
+        <item>sealing</item>
+        <item>searching</item>
+        <item>securing</item>
+        <item>seeing</item>
+        <item>seeking</item>
+        <item>selecting</item>
+        <item>selling</item>
+        <item>sending</item>
+        <item>sensing</item>
+        <item>separating</item>
+        <item>serving</item>
+        <item>servicing</item>
+        <item>setting</item>
+        <item>settling</item>
+        <item>sewing</item>
+        <item>shading</item>
+        <item>shaking</item>
+        <item>shaping</item>
+        <item>sharing</item>
+        <item>shaving</item>
+        <item>shearing</item>
+        <item>shedding</item>
+        <item>sheltering</item>
+        <item>shining</item>
+        <item>shivering</item>
+        <item>shocking</item>
+        <item>shoeing</item>
+        <item>shooting</item>
+        <item>shopping</item>
+        <item>showing</item>
+        <item>shrinking</item>
+        <item>shrugging</item>
+        <item>shutting</item>
+        <item>sighing</item>
+        <item>signing</item>
+        <item>signalling</item>
+        <item>simplifying</item>
+        <item>sinning</item>
+        <item>singing</item>
+        <item>sinking</item>
+        <item>sipping</item>
+        <item>sitted</item>
+        <item>sketching</item>
+        <item>skiing</item>
+        <item>skipping</item>
+        <item>slapping</item>
+        <item>slaying</item>
+        <item>sleeping</item>
+        <item>sliding</item>
+        <item>slinging</item>
+        <item>slinking</item>
+        <item>slipping</item>
+        <item>slitting</item>
+        <item>slowing</item>
+        <item>smashing</item>
+        <item>smelling</item>
+        <item>smiling</item>
+        <item>smiting</item>
+        <item>smoking</item>
+        <item>snatching</item>
+        <item>sneaking</item>
+        <item>sneezing</item>
+        <item>sniffing</item>
+        <item>snoring</item>
+        <item>snowing</item>
+        <item>soaking</item>
+        <item>solving</item>
+        <item>soothing</item>
+        <item>soothsaying</item>
+        <item>sorting</item>
+        <item>sounding</item>
+        <item>sowing</item>
+        <item>sparing</item>
+        <item>sparking</item>
+        <item>sparkling</item>
+        <item>speaking</item>
+        <item>specifying</item>
+        <item>speeding</item>
+        <item>spelling</item>
+        <item>spending</item>
+        <item>spilling</item>
+        <item>spinning</item>
+        <item>spitting</item>
+        <item>splitting</item>
+        <item>spoiling</item>
+        <item>spotting</item>
+        <item>spraying</item>
+        <item>spreading</item>
+        <item>springing</item>
+        <item>sprouting</item>
+        <item>squashing</item>
+        <item>squeaking</item>
+        <item>squealing</item>
+        <item>squeezing</item>
+        <item>staining</item>
+        <item>stamping</item>
+        <item>standing</item>
+        <item>staring</item>
+        <item>starting</item>
+        <item>staying</item>
+        <item>stealing</item>
+        <item>steering</item>
+        <item>stepping</item>
+        <item>sticking</item>
+        <item>stimulating</item>
+        <item>stinging</item>
+        <item>stinking</item>
+        <item>stirring</item>
+        <item>stitching</item>
+        <item>stopping</item>
+        <item>storing</item>
+        <item>strapping</item>
+        <item>streamlining</item>
+        <item>strengthening</item>
+        <item>stretching</item>
+        <item>striding</item>
+        <item>striking</item>
+        <item>stringing</item>
+        <item>striping</item>
+        <item>striving</item>
+        <item>stroking</item>
+        <item>structuring</item>
+        <item>studying</item>
+        <item>stuffing</item>
+        <item>subletting</item>
+        <item>subtracting</item>
+        <item>succeeding</item>
+        <item>sucking</item>
+        <item>suffering</item>
+        <item>suggesting</item>
+        <item>suiting</item>
+        <item>summarizing</item>
+        <item>supervising</item>
+        <item>supplying</item>
+        <item>supporting</item>
+        <item>supposing</item>
+        <item>surprising</item>
+        <item>surrounding</item>
+        <item>suspecting</item>
+        <item>suspending</item>
+        <item>swearing</item>
+        <item>sweating</item>
+        <item>sweeping</item>
+        <item>swelling</item>
+        <item>swimming</item>
+        <item>swinging</item>
+        <item>switching</item>
+        <item>symbolizing</item>
+        <item>synthesizing</item>
+        <item>systemizing</item>
+        <item>tabulating</item>
+        <item>taking</item>
+        <item>talking</item>
+        <item>taming</item>
+        <item>taping</item>
+        <item>targeting</item>
+        <item>tasting</item>
+        <item>teaching</item>
+        <item>tearing</item>
+        <item>teasing</item>
+        <item>telephoning</item>
+        <item>telling</item>
+        <item>tempting</item>
+        <item>terrifying</item>
+        <item>testing</item>
+        <item>thanking</item>
+        <item>thawing</item>
+        <item>thinking</item>
+        <item>thriving</item>
+        <item>throwing</item>
+        <item>thrusting</item>
+        <item>ticking</item>
+        <item>tickling</item>
+        <item>tying</item>
+        <item>timing</item>
+        <item>tipping</item>
+        <item>tiring</item>
+        <item>touching</item>
+        <item>touring</item>
+        <item>towing</item>
+        <item>tracing</item>
+        <item>trading</item>
+        <item>training</item>
+        <item>transcribing</item>
+        <item>transferring</item>
+        <item>transforming</item>
+        <item>translating</item>
+        <item>transporting</item>
+        <item>trapping</item>
+        <item>travelling</item>
+        <item>treading</item>
+        <item>treating</item>
+        <item>trembling</item>
+        <item>tricking</item>
+        <item>tripping</item>
+        <item>trotting</item>
+        <item>troubling</item>
+        <item>troubleshooting</item>
+        <item>trusting</item>
+        <item>trying</item>
+        <item>tugging</item>
+        <item>tumbling</item>
+        <item>turning</item>
+        <item>tutoring</item>
+        <item>twisting</item>
+        <item>typing</item>
+        <item>undergoing</item>
+        <item>understanding</item>
+        <item>undertaking</item>
+        <item>undressing</item>
+        <item>unfastening</item>
+        <item>unifying</item>
+        <item>uniting</item>
+        <item>unlocking</item>
+        <item>unpacking</item>
+        <item>untidying</item>
+        <item>updating</item>
+        <item>upgrading</item>
+        <item>upholding</item>
+        <item>upsetting</item>
+        <item>using</item>
+        <item>utilizing</item>
+        <item>vanishing</item>
+        <item>verbalizing</item>
+        <item>verifying</item>
+        <item>vexing</item>
+        <item>visiting</item>
+        <item>wailing</item>
+        <item>waiting</item>
+        <item>waking</item>
+        <item>walking</item>
+        <item>wandering</item>
+        <item>wanting</item>
+        <item>warming</item>
+        <item>warning</item>
+        <item>washing</item>
+        <item>wasting</item>
+        <item>watching</item>
+        <item>watering</item>
+        <item>waving</item>
+        <item>wearing</item>
+        <item>weaving</item>
+        <item>wedding</item>
+        <item>weeping</item>
+        <item>weighing</item>
+        <item>welcoming</item>
+        <item>wending</item>
+        <item>wetting</item>
+        <item>whining</item>
+        <item>whipping</item>
+        <item>whirling</item>
+        <item>whispering</item>
+        <item>whistling</item>
+        <item>winning</item>
+        <item>winding</item>
+        <item>winking</item>
+        <item>wiping</item>
+        <item>wishing</item>
+        <item>withdrawing</item>
+        <item>withholding</item>
+        <item>withstanding</item>
+        <item>wobbling</item>
+        <item>wondering</item>
+        <item>working</item>
+        <item>worrying</item>
+        <item>wrapping</item>
+        <item>wrecking</item>
+        <item>wrestling</item>
+        <item>wriggling</item>
+        <item>wringing</item>
+        <item>writing</item>
+        <item>x-raying</item>
+        <item>yawning</item>
+        <item>yelling</item>
+        <item>zipping</item>
+        <item>zooming</item>
+    </string-array>
+    <string-array name="Persons">
+        <item>Alden Pyle</item>
+        <item>Alex Portnoy</item>
+        <item>Antonia Shimerda</item>
+        <item>Arthur "Boo" Radley</item>
+        <item>Atticus Finch</item>
+        <item>Augie March</item>
+        <item>Augustus McCrae</item>
+        <item>Aureliano Buendia</item>
+        <item>Benjy</item>
+        <item>Big Brother</item>
+        <item>Bigger Thomas</item>
+        <item>Binx Bolling</item>
+        <item>Celie</item>
+        <item>Charles Kinbote</item>
+        <item>Charles Ryder</item>
+        <item>Charlie Marlow</item>
+        <item>Charlotte</item>
+        <item>Christopher Tietjens</item>
+        <item>Clarissa Dalloway</item>
+        <item>Claudine</item>
+        <item>Clyde Griffiths</item>
+        <item>Cosimo Piovasco di Rondo</item>
+        <item>Dean Moriarty</item>
+        <item>Eeyore</item>
+        <item>Eugene Henderson</item>
+        <item>Florentino Ariza</item>
+        <item>Frankie Addams</item>
+        <item>Geoffrey Firmin</item>
+        <item>George Follansbee Babbitt</item>
+        <item>George Smiley</item>
+        <item>Gregor Samsa</item>
+        <item>Grendel</item>
+        <item>Gulley Jimson</item>
+        <item>Hana</item>
+        <item>Harry Potter</item>
+        <item>Hazel Motes</item>
+        <item>Henry Chinaski</item>
+        <item>Holden Caulfield</item>
+        <item>Holly Golightly</item>
+        <item>Humbert Humbert</item>
+        <item>Ignatius Reilly</item>
+        <item>Jake Barnes</item>
+        <item>James Bond</item>
+        <item>Janie Crawford</item>
+        <item>Jay Gatsby</item>
+        <item>Jean Brodie</item>
+        <item>Jeeves</item>
+        <item>Jim Dixon</item>
+        <item>John Locke</item>
+        <item>Joseph K. The Trial</item>
+        <item>Judge Holden</item>
+        <item>Kimball "Kim" O\'Hara</item>
+        <item>Kurtz</item>
+        <item>Lennie Small</item>
+        <item>Leopold Bloom</item>
+        <item>Lily Bart</item>
+        <item>Lolita</item>
+        <item>Marcel</item>
+        <item>Margaret Schlegel</item>
+        <item>Mary Katherine Blackwood</item>
+        <item>Maurice Bendrix</item>
+        <item>Meursault</item>
+        <item>Molly Bloom</item>
+        <item>Mr. Biswas</item>
+        <item>Mr. Bridge</item>
+        <item>Mrs. Ramsay</item>
+        <item>Nathan Zuckerman</item>
+        <item>Neddy Merrill</item>
+        <item>Newland Archer</item>
+        <item>Nick Adams</item>
+        <item>Nick and Nora Charles</item>
+        <item>Oskar Matzerath</item>
+        <item>Peter Pan</item>
+        <item>Philip Marlowe</item>
+        <item>Phoebe Caulfield</item>
+        <item>Quentin Compson</item>
+        <item>Rabbit Angstrom</item>
+        <item>Sam Spade</item>
+        <item>Santiago</item>
+        <item>Scarlett O\'Hara</item>
+        <item>Scout Finch</item>
+        <item>Sebastian Flyte</item>
+        <item>Seymour Glass</item>
+        <item>Sherlock Holmes</item>
+        <item>Stephen Dedalus</item>
+        <item>Stephen Maturin</item>
+        <item>Stevens</item>
+        <item>Sula Peace</item>
+        <item>T.S. Garp</item>
+        <item>Tarzan</item>
+        <item>The Cat in the Hat</item>
+        <item>The Dog of Tears</item>
+        <item>The Invisible Man</item>
+        <item>The Little Prince</item>
+        <item>The Whiskey Priest</item>
+        <item>Toad</item>
+        <item>Tom Ripley</item>
+        <item>Willie Stark</item>
+        <item>Yossarian</item>
+        <item>Yuri Zhivago</item>
+        <item>Aamir Khan</item>
+        <item>Abraham Lincoln</item>
+        <item>Adam Sandler</item>
+        <item>Adam Smith</item>
+        <item>Adolf Hitler</item>
+        <item>Al Gore</item>
+        <item>Al Pacino</item>
+        <item>Albert Einstein</item>
+        <item>Alexander Hamilton</item>
+        <item>Alexander the Great</item>
+        <item>Alfred Hitchcock</item>
+        <item>Ali, founder of Sufism</item>
+        <item>Amelia Earhart</item>
+        <item>Amitabh Bachchan</item>
+        <item>Andrew Grove</item>
+        <item>Andrew Jackson</item>
+        <item>Angelina Jolie</item>
+        <item>Anne Frank</item>
+        <item>Anne Hathaway</item>
+        <item>Antonio Banderas</item>
+        <item>Anwar Sadat</item>
+        <item>Aristotle</item>
+        <item>Arnold Schwarzenegger</item>
+        <item>Audrey Hepburn</item>
+        <item>Augustine of Hippo</item>
+        <item>Augustus</item>
+        <item>Aung San Suu Kyi</item>
+        <item>Ayatollah Khomeini</item>
+        <item>Babe Ruth</item>
+        <item>Barack Obama</item>
+        <item>Ben Affleck</item>
+        <item>Ben Bernanke</item>
+        <item>Ben Stiller</item>
+        <item>Benazir Bhutto</item>
+        <item>Benjamin Franklin</item>
+        <item>Bill Clinton</item>
+        <item>Bill Gates</item>
+        <item>Bill Murray</item>
+        <item>Billie Holiday</item>
+        <item>Billie Jean King</item>
+        <item>Bob Geldof</item>
+        <item>Brad Pitt</item>
+        <item>Bradley Cooper</item>
+        <item>Brendan Fraser</item>
+        <item>Bruce Lee</item>
+        <item>Bruce Willis</item>
+        <item>C.S. Lewis</item>
+        <item>Cameron Diaz</item>
+        <item>Carl Lewis</item>
+        <item>Carl Linnaeus</item>
+        <item>Channing Tatum</item>
+        <item>Charlemagne</item>
+        <item>Charles Chaplin</item>
+        <item>Charles Darwin</item>
+        <item>Charles de Gaulle</item>
+        <item>Charles Dickens</item>
+        <item>Charles I of England</item>
+        <item>Charles II of England</item>
+        <item>Charles Lindbergh</item>
+        <item>Charles V, Holy Roman Emperor</item>
+        <item>Chiang Kai-shek</item>
+        <item>Chris Hemsworth</item>
+        <item>Christian Bale</item>
+        <item>Christiano Ronaldo</item>
+        <item>Christopher Columbus</item>
+        <item>Cicero</item>
+        <item>Cleopatra</item>
+        <item>Clint Eastwood</item>
+        <item>Coco Chanel</item>
+        <item>Constantine the Great</item>
+        <item>Corazon C. Aquino</item>
+        <item>Dalai Lama</item>
+        <item>Daniel Craig</item>
+        <item>Daniel Radcliffe</item>
+        <item>Dante Alighieri</item>
+        <item>David Beckham</item>
+        <item>David Ho</item>
+        <item>David, King of Israel</item>
+        <item>Deng Xiaoping</item>
+        <item>Denzel Washington</item>
+        <item>Desmond Tutu</item>
+        <item>Drew Barrymore</item>
+        <item>Dwayne Johnson</item>
+        <item>Dwight D. Eisenhower</item>
+        <item>Edgar Allan Poe</item>
+        <item>Edward Norton</item>
+        <item>Elizabeth I</item>
+        <item>Elizabeth II</item>
+        <item>Elvis Presley</item>
+        <item>Emile Zatopek</item>
+        <item>Emma Stone</item>
+        <item>Emma Watson</item>
+        <item>Emmeline Pankhurst</item>
+        <item>Ernest Hemingway</item>
+        <item>Eva Peron</item>
+        <item>Fidel Castro</item>
+        <item>Florence Nightingale</item>
+        <item>Francis Bacon</item>
+        <item>Franklin D. Roosevelt</item>
+        <item>Friedrich Nietzsche</item>
+        <item>Galileo Galilei</item>
+        <item>Gautama Buddha</item>
+        <item>Genghis Khan</item>
+        <item>George Bush Jr.</item>
+        <item>George Clooney</item>
+        <item>George H. W. Bush</item>
+        <item>George III</item>
+        <item>George Marshall</item>
+        <item>George Orwell</item>
+        <item>George W. Bush</item>
+        <item>George Washington</item>
+        <item>Grace Kelly</item>
+        <item>Grover Cleveland</item>
+        <item>Haile Selassie</item>
+        <item>Haile Selassie I</item>
+        <item>Halle Berry</item>
+        <item>Harlow Curtice</item>
+        <item>Harrison Ford</item>
+        <item>Harry S. Truman</item>
+        <item>Heath Ledger</item>
+        <item>Henry Ford</item>
+        <item>Henry Kissinger</item>
+        <item>Henry VIII of England</item>
+        <item>Hugh Jackman</item>
+        <item>Hugh S. Johnson</item>
+        <item>Ian McKellen</item>
+        <item>Immanuel Kant</item>
+        <item>Indira Gandhi</item>
+        <item>Ingrid Bergman</item>
+        <item>Isaac Newton</item>
+        <item>J.K.Rowling</item>
+        <item>J.R.R. Tolkien</item>
+        <item>Jack Nicholson</item>
+        <item>Jackie Chan</item>
+        <item>Jacqueline Kennedy Onassis</item>
+        <item>Jake Gyllenhaal</item>
+        <item>James Cameron</item>
+        <item>James Cook</item>
+        <item>James F. Byrnes</item>
+        <item>James Franco</item>
+        <item>James I of England</item>
+        <item>James Madison</item>
+        <item>James McAvoy</item>
+        <item>Jason Biggs</item>
+        <item>Jason Statham</item>
+        <item>Jawaharlal Nehru</item>
+        <item>Jean-Claude Van Damme</item>
+        <item>Jean-Jacques Rousseau</item>
+        <item>Jeffrey P. Bezos</item>
+        <item>Jennifer Aniston</item>
+        <item>Jesse Owens</item>
+        <item>Jessica Alba</item>
+        <item>Jesus</item>
+        <item>Jet Li</item>
+        <item>Jim Carrey</item>
+        <item>Jimmy Carter</item>
+        <item>Jimmy Wales</item>
+        <item>Joan of Arc</item>
+        <item>Johann Sebastian Bach</item>
+        <item>Johann Wolfgang von Goethe</item>
+        <item>John Adams</item>
+        <item>John Calvin</item>
+        <item>John F. Kennedy</item>
+        <item>John Foster Dulles</item>
+        <item>John Lennon</item>
+        <item>John M Keynes</item>
+        <item>John Sirica</item>
+        <item>John Travolta</item>
+        <item>Johnny Depp</item>
+        <item>Jon Stewart</item>
+        <item>Joseph Smith, Jr.</item>
+        <item>Joseph Stalin</item>
+        <item>Julia Roberts</item>
+        <item>Julie Andrews</item>
+        <item>Julius Caesar</item>
+        <item>Kamal Haasan</item>
+        <item>Karl Marx</item>
+        <item>Kate Beckinsale</item>
+        <item>Kate Winslet</item>
+        <item>Katherine Hepburn</item>
+        <item>Keanu Reeves</item>
+        <item>Keira Knightley</item>
+        <item>Ken Starr</item>
+        <item>Kevin Spacey</item>
+        <item>King Arthur</item>
+        <item>King Faisal</item>
+        <item>Konrad Adenauer</item>
+        <item>Kylie Minogue</item>
+        <item>Lance Armstrong</item>
+        <item>Lech Wałęsa</item>
+        <item>Lech Walesa</item>
+        <item>Leo Tolstoy</item>
+        <item>Leon Trotsky</item>
+        <item>Leonardo da Vinci</item>
+        <item>Leonardo DiCaprio</item>
+        <item>Liam Neeson</item>
+        <item>Lionel Messi</item>
+        <item>Lord Baden Powell</item>
+        <item>Louis Pasteur</item>
+        <item>Louis XIV of France</item>
+        <item>Louis XVI of France</item>
+        <item>Ludwig Beethoven</item>
+        <item>Ludwig van Beethoven</item>
+        <item>Lyndon B. Johnson</item>
+        <item>Lyndon Johnson</item>
+        <item>Macaulay Culkin</item>
+        <item>Madonna</item>
+        <item>Mahatma Gandhi</item>
+        <item>Malala Yousafzai</item>
+        <item>Malcolm X</item>
+        <item>Mao Zedong</item>
+        <item>Margaret Thatcher</item>
+        <item>Marie Antoinette</item>
+        <item>Marie Curie</item>
+        <item>Marilyn Monroe</item>
+        <item>Mark Twain</item>
+        <item>Mark Wahlberg</item>
+        <item>Mark Zuckerberg</item>
+        <item>Marlon Brando</item>
+        <item>Martin Luther</item>
+        <item>Martin Luther King</item>
+        <item>Martin Luther King, Jr.</item>
+        <item>Mary Magdalene</item>
+        <item>Mata Hari</item>
+        <item>Matt Damon</item>
+        <item>Megan Fox</item>
+        <item>Mel Gibson</item>
+        <item>Michael Jackson</item>
+        <item>Michael Jordan</item>
+        <item>Michelangelo</item>
+        <item>Mikhail Gorbachev</item>
+        <item>Mohammad Mossadegh</item>
+        <item>Mohandas Karamchand Gandhi</item>
+        <item>Morgan Freeman</item>
+        <item>Mother Teresa</item>
+        <item>Muhammad</item>
+        <item>Muhammad Ali</item>
+        <item>Napoleon</item>
+        <item>Natalie Portman</item>
+        <item>Neil Armstrong</item>
+        <item>Nelson Mandela</item>
+        <item>Newt Gingrich</item>
+        <item>Nicolas Cage</item>
+        <item>Nicolaus Copernicus</item>
+        <item>Nikita Khrushchev</item>
+        <item>Nikola Tesla</item>
+        <item>Oliver Cromwell</item>
+        <item>Oprah Winfrey</item>
+        <item>Orlando Bloom</item>
+        <item>Oscar Wilde</item>
+        <item>Otto von Bismarck</item>
+        <item>Owen D. Young</item>
+        <item>Owen Wilson</item>
+        <item>Pablo Picasso</item>
+        <item>Paul Krugman</item>
+        <item>Paul McCartney</item>
+        <item>Paul the Apostle</item>
+        <item>Pele</item>
+        <item>Peter Jackson</item>
+        <item>Peter Sellers</item>
+        <item>Peter Ueberroth</item>
+        <item>Philip II of Spain</item>
+        <item>Pierce Brosnan</item>
+        <item>Pierre Laval</item>
+        <item>Plato</item>
+        <item>Pope Francis</item>
+        <item>Pope John Paul II</item>
+        <item>Pope John XXIII</item>
+        <item>Prince Charles</item>
+        <item>Pyotr Ilyich Tchaikovsky</item>
+        <item>Queen Elizabeth II</item>
+        <item>Queen Victoria</item>
+        <item>Rachel McAdams</item>
+        <item>Rajinikanth</item>
+        <item>René Descartes</item>
+        <item>Richard Branson</item>
+        <item>Richard Nixon</item>
+        <item>Richard Wagner</item>
+        <item>Robert De Niro</item>
+        <item>Robert Downey Jr.</item>
+        <item>Robert E. Lee</item>
+        <item>Robin Williams</item>
+        <item>Roger Federer</item>
+        <item>Roman Abramovich</item>
+        <item>Ronald Reagan</item>
+        <item>Rosa Parks</item>
+        <item>Rowan Atkinson</item>
+        <item>Rudolph Giuliani</item>
+        <item>Rupert Murdoch</item>
+        <item>Russell Crowe</item>
+        <item>Sacha Baron Cohen</item>
+        <item>Saint Peter</item>
+        <item>Samuel L. Jackson</item>
+        <item>Sandra Bullock</item>
+        <item>Scarlett Johansson</item>
+        <item>Sean Connery</item>
+        <item>Seann William Scott</item>
+        <item>Shah Rukh Khan</item>
+        <item>Shakira</item>
+        <item>Shia LaBeouf</item>
+        <item>Sigmund Freud</item>
+        <item>Sigourney Weaver</item>
+        <item>Simon Bolivar</item>
+        <item>Socrates</item>
+        <item>Soong Mei-ling</item>
+        <item>Stephen Hawking</item>
+        <item>Stephen King</item>
+        <item>Steve Carell</item>
+        <item>Steve Jobs</item>
+        <item>Steven Spielberg</item>
+        <item>Sting</item>
+        <item>Sylvester Stallone</item>
+        <item>Ted Turner</item>
+        <item>Theodore Roosevelt</item>
+        <item>Thomas Aquinas</item>
+        <item>Thomas Edison</item>
+        <item>Thomas Jefferson</item>
+        <item>Tiger Woods</item>
+        <item>Tim Allen</item>
+        <item>Tim Berners Lee</item>
+        <item>Tom Cruise</item>
+        <item>Tom Hanks</item>
+        <item>Tom Hiddleston</item>
+        <item>Tommy Lee Jones</item>
+        <item>Ulysses S. Grant</item>
+        <item>Usain Bolt</item>
+        <item>Vladimir Lenin</item>
+        <item>Vin Diesel</item>
+        <item>Vincent van Gogh</item>
+        <item>Vincent Van Gogh</item>
+        <item>Vladimir Lenin</item>
+        <item>Vladimir Putin</item>
+        <item>Voltaire</item>
+        <item>Wallis Simpson</item>
+        <item>Walt Disney</item>
+        <item>Will Ferrell</item>
+        <item>Will Smith</item>
+        <item>William Shakespeare</item>
+        <item>William the Conqueror</item>
+        <item>William Westmoreland</item>
+        <item>Willy Brandt</item>
+        <item>Winnie the Pooh</item>
+        <item>Winston Churchill</item>
+        <item>Wolfgang Amadeus Mozart</item>
+        <item>Woodrow Wilson</item>
+        <item>Wright Brothers</item>
+        <item>Yuri Andropov</item>
+        <item>Zach Galifianakis</item>
+    </string-array>
+
+    <string-array name="Objects">
+        <item>castle</item>
+        <item>pyramid</item>
+        <item>jailhouse</item>
+        <item>cliff dwelling</item>
+        <item>igloo</item>
+        <item>Chinese pavilion</item>
+        <item>hair salon</item>
+        <item>beauty salon</item>
+        <item>hostel</item>
+        <item>estate</item>
+        <item>hacienda</item>
+        <item>ranch</item>
+        <item>ashram</item>
+        <item>log cabin</item>
+        <item>shed</item>
+        <item>light house</item>
+        <item>campanile</item>
+        <item>hovel</item>
+        <item>tavern</item>
+        <item>pagoda</item>
+        <item>abbey</item>
+        <item>cathedral</item>
+        <item>chapel</item>
+        <item>auditorium</item>
+        <item>hippodrome</item>
+        <item>tabernacle</item>
+        <item>stadium</item>
+        <item>kiosk</item>
+        <item>high-rise</item>
+        <item>green house</item>
+        <item>skyscraper</item>
+        <item>theater</item>
+        <item>casino</item>
+        <item>bathhouse</item>
+        <item>chalet</item>
+        <item>cottage</item>
+        <item>hut</item>
+        <item>shack</item>
+        <item>shanty</item>
+        <item>chateau</item>
+        <item>bungalow</item>
+        <item>cabin</item>
+        <item>villa</item>
+        <item>inn</item>
+        <item>motel</item>
+        <item>hotel</item>
+        <item>silo</item>
+        <item>barn</item>
+        <item>restaurant</item>
+        <item>diner</item>
+        <item>fortress</item>
+        <item>monastery</item>
+        <item>school</item>
+        <item>tire factory</item>
+        <item>tattoo salon</item>
+        <item>mansion</item>
+        <item>manor</item>
+        <item>saloon</item>
+        <item>bank</item>
+        <item>outhouse</item>
+        <item>yurt</item>
+        <item>barracks</item>
+        <item>gas station</item>
+        <item>garage</item>
+        <item>office building</item>
+        <item>tenement</item>
+        <item>condominium</item>
+        <item>apartments</item>
+        <item>tepee</item>
+        <item>townhouse</item>
+        <item>apron</item>
+        <item>tie</item>
+        <item>belt</item>
+        <item>ascot</item>
+        <item>cummerbund</item>
+        <item>bandanna</item>
+        <item>bandolier</item>
+        <item>obi</item>
+        <item>cartridge belt</item>
+        <item>sash</item>
+        <item>waistband</item>
+        <item>fascia</item>
+        <item>hamaki</item>
+        <item>crest</item>
+        <item>corsage</item>
+        <item>netsuke</item>
+        <item>frog clasps</item>
+        <item>pompom</item>
+        <item>wampum</item>
+        <item>shawl</item>
+        <item>stole</item>
+        <item>gloves</item>
+        <item>kid gloves</item>
+        <item>bow tie</item>
+        <item>clerical collar</item>
+        <item>choker</item>
+        <item>cravat</item>
+        <item>dickey</item>
+        <item>lei</item>
+        <item>cuff links</item>
+        <item>tie clasp</item>
+        <item>tie clip</item>
+        <item>string tie</item>
+        <item>signet ring</item>
+        <item>stick pin</item>
+        <item>eyeglasses</item>
+        <item>sunglasses</item>
+        <item>granny glasses</item>
+        <item>horn rims</item>
+        <item>bifocals</item>
+        <item>goggles</item>
+        <item>contact lens</item>
+        <item>pince-nez</item>
+        <item>opera glasses</item>
+        <item>monocle</item>
+        <item>spectacles</item>
+        <item>pocket watch</item>
+        <item>fob</item>
+        <item>jewelry</item>
+        <item>gem</item>
+        <item>jewel</item>
+        <item>ankle bracelet</item>
+        <item>brooch</item>
+        <item>cameo</item>
+        <item>charm</item>
+        <item>pearl necklace</item>
+        <item>bracelet</item>
+        <item>earrings</item>
+        <item>watch</item>
+        <item>beads</item>
+        <item>locket</item>
+        <item>pendant</item>
+        <item>solitaire</item>
+        <item>studs</item>
+        <item>tiara</item>
+        <item>crown</item>
+        <item>pinkie ring</item>
+        <item>luggage</item>
+        <item>bag</item>
+        <item>attaché</item>
+        <item>overnighter</item>
+        <item>pocketbook</item>
+        <item>portfolio</item>
+        <item>hatbox</item>
+        <item>purse</item>
+        <item>fanny pack</item>
+        <item>duffel bag</item>
+        <item>gym bag</item>
+        <item>haversack</item>
+        <item>golf bag</item>
+        <item>garment bag</item>
+        <item>suitcase</item>
+        <item>tote bag</item>
+        <item>wallet</item>
+        <item>underwear</item>
+        <item>negligee</item>
+        <item>knickers</item>
+        <item>bloomers</item>
+        <item>panties</item>
+        <item>briefs</item>
+        <item>thongs</item>
+        <item>slip</item>
+        <item>cleavage</item>
+        <item>bra</item>
+        <item>brassiere</item>
+        <item>chastity belt</item>
+        <item>garter</item>
+        <item>girdle</item>
+        <item>boxer shorts</item>
+        <item>jockey shorts</item>
+        <item>suspenders</item>
+        <item>tank top</item>
+        <item>nightgown</item>
+        <item>jockstrap</item>
+        <item>T-shirt</item>
+        <item>thermals</item>
+        <item>bathrobe</item>
+        <item>pajamas</item>
+        <item>loincloth</item>
+        <item>baby jimmies</item>
+        <item>footie pajamas</item>
+        <item>argyle socks</item>
+        <item>crew socks</item>
+        <item>bobby socks</item>
+        <item>anklet</item>
+        <item>pantyhose</item>
+        <item>stockings</item>
+        <item>fishnets</item>
+        <item>tube socks</item>
+        <item>tights</item>
+        <item>shoes</item>
+        <item>shoe horns</item>
+        <item>heels</item>
+        <item>French heel</item>
+        <item>wedge heel</item>
+        <item>sandals</item>
+        <item>slippers</item>
+        <item>platform shoes</item>
+        <item>spike heels</item>
+        <item>stilettos</item>
+        <item>flip flops</item>
+        <item>chancletas</item>
+        <item>cleats</item>
+        <item>booties</item>
+        <item>combat boots</item>
+        <item>espadrille</item>
+        <item>galoshes</item>
+        <item>gumboots</item>
+        <item>waterproof boots</item>
+        <item>riding boots</item>
+        <item>Roman sandals</item>
+        <item>high heels</item>
+        <item>tap shoes</item>
+        <item>loafers</item>
+        <item>mukluk</item>
+        <item>oxford</item>
+        <item>moccasins</item>
+        <item>wingtips</item>
+        <item>sneakers</item>
+        <item>work boots</item>
+        <item>running shoes</item>
+        <item>tennis shoes</item>
+        <item>Wellington boots</item>
+        <item>clogs</item>
+        <item>klomps</item>
+        <item>pumps</item>
+        <item>rawhide laces</item>
+        <item>shoelaces</item>
+        <item>aglet</item>
+        <item>canvas straps</item>
+        <item>tassels</item>
+        <item>buckles</item>
+        <item>costume</item>
+        <item>disguise</item>
+        <item>garb</item>
+        <item>raiment</item>
+        <item>uniform</item>
+        <item>togs</item>
+        <item>rags</item>
+        <item>shirt</item>
+        <item>suit</item>
+        <item>dress</item>
+        <item>pants</item>
+        <item>cap and gown</item>
+        <item>business suit</item>
+        <item>tuxedo</item>
+        <item>jumpsuit</item>
+        <item>fatigues</item>
+        <item>pinstripes</item>
+        <item>pantsuit</item>
+        <item>evening dress</item>
+        <item>strapless dress</item>
+        <item>coverall</item>
+        <item>frock</item>
+        <item>snowsuit</item>
+        <item>zoot suit</item>
+        <item>chador</item>
+        <item>tutu</item>
+        <item>kilt</item>
+        <item>miniskirt</item>
+        <item>pannier</item>
+        <item>crinoline</item>
+        <item>petticoat</item>
+        <item>pinafore</item>
+        <item>sari</item>
+        <item>sarong</item>
+        <item>jumper</item>
+        <item>shift</item>
+        <item>shirtdress</item>
+        <item>anorak</item>
+        <item>parka</item>
+        <item>caftan</item>
+        <item>vest</item>
+        <item>cape</item>
+        <item>trench coat</item>
+        <item>cloak</item>
+        <item>kimono</item>
+        <item>Inverness</item>
+        <item>mantua</item>
+        <item>mantle</item>
+        <item>peacoat</item>
+        <item>poncho</item>
+        <item>robe</item>
+        <item>smock</item>
+        <item>toga</item>
+        <item>tunic</item>
+        <item>blazer</item>
+        <item>cardigan</item>
+        <item>sweater</item>
+        <item>turtleneck sweater</item>
+        <item>bolero</item>
+        <item>bomber jacket</item>
+        <item>combat jacket</item>
+        <item>dinner jacket</item>
+        <item>shearling</item>
+        <item>fur coat</item>
+        <item>fake fur coat</item>
+        <item>dolman</item>
+        <item>chinos</item>
+        <item>chaps</item>
+        <item>Capri pants</item>
+        <item>blue jeans</item>
+        <item>corduroys</item>
+        <item>gaiters</item>
+        <item>dungarees</item>
+        <item>denims</item>
+        <item>hip huggers</item>
+        <item>hot pants</item>
+        <item>shorts</item>
+        <item>jodhpurs</item>
+        <item>leggings</item>
+        <item>pedal pushers</item>
+        <item>spandex</item>
+        <item>spanks</item>
+        <item>trousers</item>
+        <item>toreador pants</item>
+        <item>bikini</item>
+        <item>bathing suit</item>
+        <item>gym suit</item>
+        <item>sweats</item>
+        <item>leotard</item>
+        <item>swimsuit</item>
+        <item>track suit</item>
+        <item>wet suit</item>
+        <item>armor</item>
+        <item>breastplate</item>
+        <item>epauliere</item>
+        <item>gauntlet</item>
+        <item>alb</item>
+        <item>cassock</item>
+        <item>cope</item>
+        <item>vestment</item>
+        <item>hat</item>
+        <item>cap</item>
+        <item>beret</item>
+        <item>astrakhan</item>
+        <item>beanie</item>
+        <item>hard hat</item>
+        <item>pillbox</item>
+        <item>monkey cap</item>
+        <item>opera hat</item>
+        <item>bonnet</item>
+        <item>bowler</item>
+        <item>coonskin</item>
+        <item>fedora</item>
+        <item>Dutch hat</item>
+        <item>derby</item>
+        <item>Montero</item>
+        <item>cowboy hat</item>
+        <item>baseball cap</item>
+        <item>sombrero</item>
+        <item>Tyrolean hat</item>
+        <item>yarmulke</item>
+        <item>skullcap</item>
+        <item>sun hat</item>
+        <item>tam</item>
+        <item>three-cornered hat</item>
+        <item>sunbonnet</item>
+        <item>toque</item>
+        <item>top hat</item>
+        <item>babushka</item>
+        <item>balaclava</item>
+        <item>crash helmet</item>
+        <item>turban</item>
+        <item>diadem</item>
+        <item>earmuffs</item>
+        <item>visor</item>
+        <item>scarf</item>
+        <item>veil</item>
+        <item>war bonnet</item>
+        <item>pith helmet</item>
+        <item>hood</item>
+        <item>miter</item>
+        <item>shell jacket</item>
+        <item>cooking sherry</item>
+        <item>stick butter</item>
+        <item>rocky road</item>
+        <item>cake batter</item>
+        <item>coffee</item>
+        <item>tea</item>
+        <item>drink of water</item>
+        <item>soda</item>
+        <item>hot chocolate</item>
+        <item>mocha</item>
+        <item>beer</item>
+        <item>wine</item>
+        <item>cappuccino</item>
+        <item>jelly</item>
+        <item>nougat</item>
+        <item>lamb chop</item>
+        <item>steaks</item>
+        <item>schnitzel</item>
+        <item>chowder</item>
+        <item>fish soup</item>
+        <item>spaghetti</item>
+        <item>lobster</item>
+        <item>sushi</item>
+        <item>fondue</item>
+        <item>crabs legs</item>
+        <item>shrimp</item>
+        <item>garlic</item>
+        <item>onions</item>
+        <item>Bratwurst</item>
+        <item>foie gras</item>
+        <item>hot dog</item>
+        <item>hamburger</item>
+        <item>tomato</item>
+        <item>herbs</item>
+        <item>grains</item>
+        <item>legumes</item>
+        <item>zampone</item>
+        <item>casserole</item>
+        <item>black beans</item>
+        <item>pumpkin seeds</item>
+        <item>stew</item>
+        <item>cereal</item>
+        <item>polenta</item>
+        <item>pudding</item>
+        <item>pasta</item>
+        <item>macaroni</item>
+        <item>ravioli</item>
+        <item>wafer</item>
+        <item>crackers</item>
+        <item>cookies</item>
+        <item>sandwich</item>
+        <item>gyro</item>
+        <item>wrap</item>
+        <item>omelet</item>
+        <item>popcorn</item>
+        <item>walnuts</item>
+        <item>nuts</item>
+        <item>almonds</item>
+        <item>strawberries</item>
+        <item>blueberries</item>
+        <item>raspberries</item>
+        <item>blackberries</item>
+        <item>dessert menu</item>
+        <item>pizza</item>
+        <item>chocolate mousse</item>
+        <item>crème brulee</item>
+        <item>cake</item>
+        <item>pancake</item>
+        <item>waffles</item>
+        <item>French toast</item>
+        <item>rock candy</item>
+        <item>baked Alaska</item>
+        <item>bedside table</item>
+        <item>chest of drawers</item>
+        <item>dresser</item>
+        <item>armoire</item>
+        <item>chiffonier</item>
+        <item>credenza</item>
+        <item>console</item>
+        <item>bookcase</item>
+        <item>buffet</item>
+        <item>armchair</item>
+        <item>rocking chair</item>
+        <item>recliner</item>
+        <item>Adirondack chair</item>
+        <item>Easy chair</item>
+        <item>bench</item>
+        <item>banquette</item>
+        <item>chair</item>
+        <item>chaise lounge</item>
+        <item>Chippendale chair</item>
+        <item>couch</item>
+        <item>davenport</item>
+        <item>Chesterfield</item>
+        <item>sofa</item>
+        <item>ottoman</item>
+        <item>folding chair</item>
+        <item>deck chair</item>
+        <item>love seat</item>
+        <item>director\'s chair</item>
+        <item>fanback chair</item>
+        <item>high seat</item>
+        <item>divan</item>
+        <item>inglenook</item>
+        <item>pew</item>
+        <item>throne</item>
+        <item>sectional</item>
+        <item>stool</item>
+        <item>potty chair</item>
+        <item>workbench</item>
+        <item>swivel chair</item>
+        <item>night table</item>
+        <item>bed</item>
+        <item>four poster bed</item>
+        <item>daybed</item>
+        <item>bassinet</item>
+        <item>crib</item>
+        <item>cradle</item>
+        <item>cot</item>
+        <item>foldaway bed</item>
+        <item>futon</item>
+        <item>hammock</item>
+        <item>tatami mat</item>
+        <item>rollaway bed</item>
+        <item>mattress</item>
+        <item>waterbed</item>
+        <item>trundle bed</item>
+        <item>hassock</item>
+        <item>hat rack</item>
+        <item>step stool</item>
+        <item>footrest</item>
+        <item>footstool</item>
+        <item>tripod</item>
+        <item>grandfather clock</item>
+        <item>cuckoo clock</item>
+        <item>mirror</item>
+        <item>Tiffany lamp</item>
+        <item>nightlight</item>
+        <item>Chinese lantern</item>
+        <item>Venetian lamp</item>
+        <item>sunlamp</item>
+        <item>spotlight</item>
+        <item>ceiling fan</item>
+        <item>cupboard</item>
+        <item>card table</item>
+        <item>hutch</item>
+        <item>locker</item>
+        <item>wet bar</item>
+        <item>vanity</item>
+        <item>rack</item>
+        <item>filing cabinet</item>
+        <item>china cabinet</item>
+        <item>sculpture</item>
+        <item>coffee table</item>
+        <item>painting</item>
+        <item>wall hanging</item>
+        <item>xylophone</item>
+        <item>clavier</item>
+        <item>virginal</item>
+        <item>lute</item>
+        <item>drum</item>
+        <item>French Horn</item>
+        <item>English Horn</item>
+        <item>piano</item>
+        <item>violin</item>
+        <item>cello</item>
+        <item>guitar</item>
+        <item>flute</item>
+        <item>tuba</item>
+        <item>harp</item>
+        <item>mariachi</item>
+        <item>orchestra</item>
+        <item>oboe</item>
+        <item>bassoon</item>
+        <item>woodwinds</item>
+        <item>brass</item>
+        <item>viola</item>
+        <item>kettle drum</item>
+        <item>peyote drum</item>
+        <item>tambourine</item>
+        <item>tambour</item>
+        <item>saxophone</item>
+        <item>marimba</item>
+        <item>maracas</item>
+        <item>glockenspiel</item>
+        <item>shofar</item>
+        <item>cymbals</item>
+        <item>kazoo</item>
+        <item>baby grand piano</item>
+        <item>dulcimer</item>
+        <item>harpsichord</item>
+        <item>accordion</item>
+        <item>lyre</item>
+        <item>fiddle</item>
+        <item>banjo</item>
+        <item>balalaika</item>
+        <item>sitar</item>
+        <item>ukulele</item>
+        <item>zither</item>
+        <item>bagpipes</item>
+        <item>piccolo</item>
+        <item>clarinet</item>
+        <item>cornet</item>
+        <item>bugle alpenhorn</item>
+        <item>panpipe</item>
+        <item>tuning fork</item>
+        <item>metronome</item>
+        <item>castanets</item>
+        <item>mixing console</item>
+        <item>woofers</item>
+        <item>chalice</item>
+        <item>bijou</item>
+        <item>candelabra</item>
+        <item>menorah</item>
+        <item>curio</item>
+        <item>figurine</item>
+        <item>music-box</item>
+        <item>objet d\'art</item>
+        <item>trinket</item>
+        <item>trims</item>
+        <item>wind chimes</item>
+        <item>birdcage</item>
+        <item>birdbath</item>
+        <item>cans</item>
+        <item>wastebasket</item>
+        <item>urn</item>
+        <item>bucket</item>
+        <item>arrow</item>
+        <item>bow</item>
+        <item>sword</item>
+        <item>dart</item>
+        <item>epee</item>
+        <item>dagger</item>
+        <item>hatchet</item>
+        <item>pickax</item>
+        <item>popsicle stick</item>
+        <item>scented candle</item>
+        <item>dolls</item>
+        <item>toy train set</item>
+        <item>broom</item>
+        <item>mop</item>
+        <item>pail</item>
+        <item>vacuum cleaner</item>
+        <item>squeegee</item>
+        <item>caddy</item>
+        <item>telephone</item>
+        <item>pipe</item>
+        <item>paints</item>
+        <item>brushes</item>
+        <item>easel</item>
+        <item>canvas</item>
+        <item>trunk</item>
+        <item>hook</item>
+        <item>gun</item>
+        <item>glue</item>
+        <item>toilet paper</item>
+        <item>Kleenex</item>
+        <item>paper towel</item>
+        <item>ropes</item>
+        <item>rubber</item>
+        <item>metal coils</item>
+        <item>toy</item>
+        <item>dog leash</item>
+        <item>balloon</item>
+        <item>vases</item>
+        <item>planters</item>
+        <item>pen</item>
+        <item>pad</item>
+        <item>typewriter</item>
+        <item>computer</item>
+        <item>e-reader</item>
+        <item>laptop</item>
+        <item>I-Pad</item>
+        <item>netbook</item>
+        <item>stylus</item>
+        <item>pencil</item>
+        <item>desk</item>
+        <item>backpack</item>
+        <item>shoe-rack</item>
+        <item>note-book</item>
+        <item>vellum</item>
+        <item>chalk</item>
+        <item>metal badge</item>
+        <item>saddle</item>
+        <item>spurs</item>
+        <item>research paper</item>
+        <item>roll book</item>
+        <item>guest book</item>
+        <item>ATM</item>
+        <item>pot</item>
+        <item>plate</item>
+        <item>dish</item>
+        <item>fork</item>
+        <item>spoon</item>
+        <item>knife</item>
+        <item>plastic bag</item>
+        <item>freezer bag</item>
+        <item>samovar</item>
+        <item>weather vane</item>
+        <item>thermometer</item>
+        <item>rubbish bin</item>
+        <item>blackboard</item>
+        <item>furnace</item>
+        <item>Franklin stove</item>
+        <item>oven</item>
+        <item>potbelly stove</item>
+        <item>wood stove</item>
+        <item>range</item>
+        <item>water heater</item>
+        <item>bidet</item>
+        <item>refrigerator</item>
+        <item>washer-dryer</item>
+        <item>dishwasher</item>
+        <item>freezer</item>
+        <item>swing set</item>
+        <item>coffin</item>
+        <item>leaf pile</item>
+        <item>hay bail</item>
+        <item>motor</item>
+        <item>dynamo</item>
+        <item>poison</item>
+        <item>venom</item>
+        <item>fire</item>
+        <item>longboat</item>
+        <item>ferryboat</item>
+        <item>ocean liners</item>
+        <item>oars</item>
+        <item>sails</item>
+        <item>dinghy</item>
+        <item>yacht</item>
+        <item>canoe</item>
+        <item>catamaran</item>
+        <item>gondola</item>
+        <item>fishing boat</item>
+        <item>battleship</item>
+        <item>aircraft arrier</item>
+        <item>clipper</item>
+        <item>flatboat</item>
+        <item>houseboat</item>
+        <item>galleon</item>
+        <item>frigate</item>
+        <item>hydrofoil</item>
+        <item>junk</item>
+        <item>ketch</item>
+        <item>yawl</item>
+        <item>submarine</item>
+        <item>schooner</item>
+        <item>scow</item>
+        <item>flatbed truck</item>
+        <item>SUV</item>
+        <item>moving van</item>
+        <item>caboose</item>
+        <item>freight train</item>
+        <item>bullet train</item>
+        <item>metro</item>
+        <item>subway</item>
+        <item>cart</item>
+        <item>taxi</item>
+        <item>car</item>
+        <item>racing car</item>
+        <item>patrol car</item>
+        <item>beach buggy</item>
+        <item>dune buggy</item>
+        <item>dragster</item>
+        <item>motorcycle</item>
+        <item>go-cart</item>
+        <item>limo</item>
+        <item>stretch limo</item>
+        <item>station wagon</item>
+        <item>stock car</item>
+        <item>trolley</item>
+        <item>tram</item>
+        <item>bus</item>
+        <item>parachute</item>
+        <item>tractor trailer</item>
+        <item>golf cart</item>
+        <item>jeep</item>
+        <item>town car</item>
+        <item>big rig</item>
+        <item>bulldozer</item>
+        <item>dump truck</item>
+        <item>steamroller</item>
+        <item>tow truck</item>
+        <item>fire engine</item>
+        <item>police car</item>
+        <item>tank</item>
+        <item>locomotive</item>
+        <item>kitchen</item>
+        <item>pantry</item>
+        <item>bathroom</item>
+        <item>atelier</item>
+        <item>studio</item>
+        <item>study</item>
+        <item>attic</item>
+        <item>atrium</item>
+        <item>catacomb</item>
+        <item>boudoir</item>
+        <item>ceiling tile</item>
+        <item>checkroom</item>
+        <item>closet</item>
+        <item>den</item>
+        <item>antechamber</item>
+        <item>sunroom</item>
+        <item>playroom</item>
+        <item>nursery</item>
+        <item>entertainment center</item>
+        <item>meeting rooms</item>
+        <item>powder room</item>
+        <item>light fixture</item>
+        <item>chandeliers</item>
+        <item>fanlight</item>
+        <item>light switch</item>
+        <item>switchboard</item>
+        <item>spiral staircase</item>
+        <item>gallery</item>
+        <item>bay window</item>
+        <item>bow window</item>
+        <item>skylight</item>
+        <item>porthole</item>
+        <item>transom</item>
+        <item>storm window</item>
+        <item>sliding door</item>
+        <item>hallway</item>
+        <item>corridor</item>
+        <item>balcony</item>
+        <item>study hall</item>
+        <item>office door</item>
+        <item>doorknob</item>
+        <item>turnstile</item>
+        <item>trapdoor</item>
+        <item>cellar</item>
+        <item>basement</item>
+        <item>alcove</item>
+        <item>apse</item>
+        <item>elevator</item>
+        <item>dumbwaiter</item>
+        <item>hearth</item>
+        <item>fireplace</item>
+        <item>mantel</item>
+        <item>loft</item>
+        <item>loggia</item>
+        <item>mezzanine</item>
+        <item>stage</item>
+        <item>rostrum</item>
+        <item>niche</item>
+        <item>accelerator</item>
+        <item>indicator</item>
+        <item>boot</item>
+        <item>brake</item>
+        <item>bumper</item>
+        <item>clutch</item>
+        <item>dashboard</item>
+        <item>gear</item>
+        <item>headlight</item>
+        <item>horn</item>
+        <item>rearview mirror</item>
+        <item>seat</item>
+        <item>wheel</item>
+        <item>windscreen</item>
+        <item>archer</item>
+        <item>cannon</item>
+        <item>drawbridge</item>
+        <item>dungeon</item>
+        <item>knight</item>
+        <item>moat</item>
+        <item>samurai</item>
+        <item>shield</item>
+        <item>wall</item>
+        <item>watch tower</item>
+        <item>circle</item>
+        <item>cone</item>
+        <item>cylinder</item>
+        <item>ellipse</item>
+        <item>hexagon</item>
+        <item>irregular shape</item>
+        <item>octagon</item>
+        <item>oval</item>
+        <item>parallelogram</item>
+        <item>pentagon</item>
+        <item>rectangle</item>
+        <item>semicircle</item>
+        <item>sphere</item>
+        <item>square</item>
+        <item>star</item>
+        <item>trapezoid</item>
+        <item>triangle</item>
+        <item>wedge</item>
+        <item>whorl</item>
+        <item>atomic bomb</item>
+        <item>blowgun</item>
+        <item>bomb</item>
+        <item>bow and arrow</item>
+        <item>club</item>
+        <item>hand grenade</item>
+        <item>land mine</item>
+        <item>missile</item>
+        <item>nuclear bomb</item>
+        <item>revolver</item>
+        <item>rifle</item>
+        <item>spear</item>
+        <item>stone</item>
+        <item>black eye</item>
+        <item>blister</item>
+        <item>broken bone</item>
+        <item>bruise</item>
+        <item>burn</item>
+        <item>cut</item>
+        <item>dislocation</item>
+        <item>fracture</item>
+        <item>lump</item>
+        <item>scrape</item>
+        <item>scratch</item>
+        <item>splinter</item>
+        <item>sprain</item>
+        <item>sun burn</item>
+        <item>swelling</item>
+        <item>condom</item>
+        <item>bottle cap</item>
+        <item>thong</item>
+        <item>nail clippers</item>
+        <item>candle</item>
+        <item>ice cube</item>
+        <item>slipper</item>
+        <item>thread</item>
+        <item>glow stick</item>
+        <item>needle</item>
+        <item>stop sign</item>
+        <item>blouse</item>
+        <item>hanger</item>
+        <item>rubber duck</item>
+        <item>shovel</item>
+        <item>bookmark</item>
+        <item>model car</item>
+        <item>tampon</item>
+        <item>rubber band</item>
+        <item>tire swing</item>
+        <item>sharpie</item>
+        <item>picture frame</item>
+        <item>photo album</item>
+        <item>nail file</item>
+        <item>toothpaste</item>
+        <item>bathbomb</item>
+        <item>tissue box</item>
+        <item>deodorant</item>
+        <item>cookie jar</item>
+        <item>nail</item>
+        <item>crossword</item>
+        <item>face wash</item>
+        <item>paint brush</item>
+        <item>candy wrapper</item>
+        <item>shoe lace</item>
+        <item>leg warmers</item>
+        <item>remote</item>
+        <item>boombox</item>
+        <item>quilt</item>
+        <item>card</item>
+        <item>tooth pick</item>
+        <item>speakers</item>
+        <item>key chain</item>
+        <item>cork</item>
+        <item>helmet</item>
+        <item>mouse pad</item>
+        <item>zipper</item>
+        <item>glasses</item>
+        <item>lamp shade</item>
+        <item>sketch pad</item>
+        <item>gauge</item>
+        <item>plastic fork</item>
+        <item>flag</item>
+        <item>clay pot</item>
+        <item>cheque book</item>
+        <item>CD</item>
+        <item>mechanical pencil</item>
+        <item>post-it note</item>
+        <item>hair tie</item>
+        <item>credit card</item>
+        <item>seat belt</item>
+        <item>buckle</item>
+        <item>button</item>
+        <item>vase</item>
+        <item>lip gloss</item>
+        <item>rug</item>
+        <item>gel</item>
+        <item>tweezers</item>
+        <item>toe ring</item>
+        <item>sticky tape</item>
+        <item>white out</item>
+        <item>grid paper</item>
+        <item>eraser</item>
+        <item>puddle</item>
+        <item>cement</item>
+        <item>sponge</item>
+        <item>lace</item>
+        <item>outlet</item>
+        <item>conditioner</item>
+        <item>sailboat</item>
+        <item>screw</item>
+        <item>sand paper</item>
+        <item>eye liner</item>
+        <item>pool noodle</item>
+        <item>can</item>
+        <item>spring</item>
+        <item>phone charger</item>
+        <item>twister</item>
+        <item>bauble</item>
+        <item>tinsel</item>
+        <item>floorboard</item>
+        <item>webbing</item>
+        <item>cartridge</item>
+        <item>pylon</item>
+        <item>ribbon</item>
+        <item>seam</item>
+        <item>casket</item>
+        <item>hearse</item>
+        <item>wand</item>
+        <item>broomstick</item>
+        <item>potion</item>
+        <item>quaffle</item>
+        <item>bludger</item>
+        <item>golden snitch</item>
+        <item>dementor</item>
+        <item>Christmas tree</item>
+        <item>collar</item>
+        <item>croissant</item>
+        <item>elf</item>
+        <item>gnome</item>
+    </string-array>
+    <string-array name="Worlds">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cabo Verde</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>North Korea</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>St. Kitts and Nevis</item>
+        <item>St. Lucia</item>
+        <item>St. Vincent and The Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States of America</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+        <item>Abu Dhabi</item>
+        <item>Abuja</item>
+        <item>Accra</item>
+        <item>Addis Ababa</item>
+        <item>Algiers</item>
+        <item>Amman</item>
+        <item>Andorra la Vella</item>
+        <item>Ankara</item>
+        <item>Antananarivo</item>
+        <item>Apia</item>
+        <item>Ashgabat</item>
+        <item>Asmara</item>
+        <item>Astana</item>
+        <item>Asuncion</item>
+        <item>Athens</item>
+        <item>Baku</item>
+        <item>Bandar Seri Begawan</item>
+        <item>Baghdad</item>
+        <item>Bamako</item>
+        <item>Bangkok</item>
+        <item>Bangui</item>
+        <item>Banjul</item>
+        <item>Basseterre</item>
+        <item>Beijing</item>
+        <item>Beirut</item>
+        <item>Belgrade</item>
+        <item>Belmopan</item>
+        <item>Belfast</item>
+        <item>Berlin</item>
+        <item>Bern</item>
+        <item>Bishkek</item>
+        <item>Bissau</item>
+        <item>Bogota</item>
+        <item>Brasilia</item>
+        <item>Bratislava</item>
+        <item>Brazzaville</item>
+        <item>Bridgetown</item>
+        <item>Brussels</item>
+        <item>Budapest</item>
+        <item>Bucharest</item>
+        <item>Buenos Aires</item>
+        <item>Bujumbura</item>
+        <item>Cairo</item>
+        <item>Canberra</item>
+        <item>Caracas</item>
+        <item>Cardiff</item>
+        <item>Castries</item>
+        <item>Cayenne</item>
+        <item>Chisinau</item>
+        <item>Colombo</item>
+        <item>Conakry</item>
+        <item>Copenhagen</item>
+        <item>Dakar</item>
+        <item>Damascus</item>
+        <item>Dhaka</item>
+        <item>Dar es Salaam</item>
+        <item>Dili</item>
+        <item>Doha</item>
+        <item>Dublin</item>
+        <item>Dushanbe</item>
+        <item>Edinburgh</item>
+        <item>Freetown</item>
+        <item>Gaborone</item>
+        <item>Georgetown</item>
+        <item>Guatemala City</item>
+        <item>Hanoi</item>
+        <item>Harare</item>
+        <item>Havana</item>
+        <item>Helsinki</item>
+        <item>Honiara</item>
+        <item>Islamabad</item>
+        <item>Jakarta</item>
+        <item>Juba</item>
+        <item>Kabul</item>
+        <item>Kathmandu</item>
+        <item>Kampala</item>
+        <item>Khartoum</item>
+        <item>Kiev</item>
+        <item>Kigali</item>
+        <item>Kingston</item>
+        <item>Kingstown</item>
+        <item>Kinshasa</item>
+        <item>Kuala Lumpur</item>
+        <item>Kuwait City</item>
+        <item>La Paz</item>
+        <item>Libreville</item>
+        <item>Lilongwe</item>
+        <item>Lima</item>
+        <item>Lisbon</item>
+        <item>Ljubljana</item>
+        <item>Lome</item>
+        <item>London</item>
+        <item>Luanda</item>
+        <item>Lusaka</item>
+        <item>Madrid</item>
+        <item>Majuro</item>
+        <item>Malabo</item>
+        <item>Malé</item>
+        <item>Managua</item>
+        <item>Manama</item>
+        <item>Manila</item>
+        <item>Maputo</item>
+        <item>Maseru</item>
+        <item>Mbabana</item>
+        <item>Melekeok</item>
+        <item>Mexico City</item>
+        <item>Minsk</item>
+        <item>Mogadishu</item>
+        <item>Monrovia</item>
+        <item>Montevideo</item>
+        <item>Moroni</item>
+        <item>Moscow</item>
+        <item>Muscat</item>
+        <item>Nairobi</item>
+        <item>Nassau</item>
+        <item>N\'Djamena</item>
+        <item>New Delhi</item>
+        <item>Niamey</item>
+        <item>Nicosia</item>
+        <item>Nouakchott</item>
+        <item>Nuku\'alofa</item>
+        <item>Ouagadougou</item>
+        <item>Oslo</item>
+        <item>Ottawa</item>
+        <item>Palikir</item>
+        <item>Panama City</item>
+        <item>Paramaribo</item>
+        <item>Paris</item>
+        <item>Phnom Penh</item>
+        <item>Podgorica</item>
+        <item>Port au Prince</item>
+        <item>Port Louis</item>
+        <item>Port Moresby</item>
+        <item>Port of Spain</item>
+        <item>Port Vila</item>
+        <item>Porto Novo</item>
+        <item>Prague</item>
+        <item>Praia</item>
+        <item>Pretoria</item>
+        <item>Pristina</item>
+        <item>Pyongyang</item>
+        <item>Quito</item>
+        <item>Rabat</item>
+        <item>Rangoon</item>
+        <item>Reykjavik</item>
+        <item>Riga</item>
+        <item>Riyadh</item>
+        <item>Rome</item>
+        <item>Roseau</item>
+        <item>Saint George\'s</item>
+        <item>Saint John\'s</item>
+        <item>San Jose</item>
+        <item>San Salvador</item>
+        <item>Sanaa</item>
+        <item>Santiago</item>
+        <item>Santo Domingo</item>
+        <item>Sao Tome</item>
+        <item>Sarajevo</item>
+        <item>Seoul</item>
+        <item>Skopje</item>
+        <item>Sofia</item>
+        <item>Stockholm</item>
+        <item>Suva</item>
+        <item>Taipei</item>
+        <item>Tallinn</item>
+        <item>Tarawa Atoll</item>
+        <item>Tashkent</item>
+        <item>Tbilisi</item>
+        <item>Tegucigalpa</item>
+        <item>Tehran</item>
+        <item>Tel Aviv</item>
+        <item>Amsterdam</item>
+        <item>Thimphu</item>
+        <item>Tirana</item>
+        <item>Tokyo</item>
+        <item>Tripoli</item>
+        <item>Tunis</item>
+        <item>Ulaanbaatar</item>
+        <item>Vaduz</item>
+        <item>Vaiaku village</item>
+        <item>Valletta</item>
+        <item>Victoria</item>
+        <item>Vienna</item>
+        <item>Vientiane</item>
+        <item>Vilnius</item>
+        <item>Warsaw</item>
+        <item>Washington D.C.</item>
+        <item>Wellington</item>
+        <item>Windhoek</item>
+        <item>Yamoussoukro</item>
+        <item>Yaounde</item>
+        <item>Yerevan</item>
+        <item>Zagreb</item>
+        <item>Alabama </item>
+        <item>Alaska </item>
+        <item>Arizona </item>
+        <item>Arkansas </item>
+        <item>California </item>
+        <item>Colorado </item>
+        <item>Connecticut </item>
+        <item>Delaware </item>
+        <item>Florida </item>
+        <item>Georgia </item>
+        <item>Hawaii </item>
+        <item>Idaho </item>
+        <item>Illinois</item>
+        <item>Indiana </item>
+        <item>Iowa </item>
+        <item>Kansas </item>
+        <item>Kentucky </item>
+        <item>Louisiana </item>
+        <item>Maine </item>
+        <item>Maryland </item>
+        <item>Massachusetts </item>
+        <item>Michigan </item>
+        <item>Minnesota </item>
+        <item>Mississippi </item>
+        <item>Missouri </item>
+        <item>Montana</item>
+        <item>Nebraska </item>
+        <item>Nevada </item>
+        <item>New Hampshire </item>
+        <item>New Jersey </item>
+        <item>New Mexico </item>
+        <item>New York </item>
+        <item>North Carolina </item>
+        <item>North Dakota </item>
+        <item>Ohio </item>
+        <item>Oklahoma </item>
+        <item>Oregon </item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island </item>
+        <item>South Carolina </item>
+        <item>South Dakota </item>
+        <item>Tennessee </item>
+        <item>Texas </item>
+        <item>Utah </item>
+        <item>Vermont </item>
+        <item>Virginia </item>
+        <item>Washington </item>
+        <item>West Virginia </item>
+        <item>Wisconsin </item>
+        <item>Wyoming</item>
+        <item>Asia</item>
+        <item>Africa</item>
+        <item>North America</item>
+        <item>South America</item>
+        <item>Europe</item>
+        <item>Antarctica</item>
+        <item>Mount Everest</item>
+        <item>Mount McKinley</item>
+        <item>Mount Kilimanjaro</item>
+        <item>Mount Elbrus</item>
+        <item>Vinson Massif</item>
+        <item>Puncak Jaya</item>
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Houston</item>
+        <item>Phoenix</item>
+        <item>Philadelphia</item>
+        <item>San Diego</item>
+        <item>San Antonio</item>
+        <item>Dallas</item>
+        <item>San Francisco</item>
+        <item>Indianapolis</item>
+        <item>Austin</item>
+        <item>Columbus</item>
+        <item>Detroit</item>
+        <item>Fort Worth</item>
+        <item>Charlotte</item>
+        <item>Memphis</item>
+        <item>Baltimore</item>
+        <item>El Paso</item>
+        <item>Boston</item>
+        <item>Milwaukee</item>
+        <item>Denver</item>
+        <item>Seattle</item>
+        <item>Nashville</item>
+        <item>Washington</item>
+        <item>Las Vegas</item>
+        <item>Portland</item>
+        <item>Louisville</item>
+        <item>Oklahoma City</item>
+        <item>Tucson</item>
+        <item>Atlanta</item>
+        <item>Albuquerque</item>
+        <item>Fresno</item>
+        <item>Sacramento</item>
+        <item>Long Beach</item>
+        <item>Mesa</item>
+        <item>Kansas City</item>
+        <item>Omaha</item>
+        <item>Cleveland</item>
+        <item>Virginia Beach</item>
+        <item>Miami</item>
+        <item>Oakland</item>
+        <item>Raleigh</item>
+        <item>Minneapolis</item>
+        <item>Tulsa</item>
+        <item>Colorado Springs</item>
+        <item>Honolulu</item>
+        <item>Arlington</item>
+        <item>Saint Petersburg</item>
+        <item>Hamburg</item>
+        <item>Barcelona</item>
+        <item>Kharkiv</item>
+        <item>Munich</item>
+        <item>Milan</item>
+        <item>Nizhny Novgorod</item>
+        <item>Kazan</item>
+        <item>Samara</item>
+        <item>Rostov-on-Don</item>
+        <item>Birmingham</item>
+        <item>Ufa</item>
+        <item>Cologne</item>
+        <item>Volgograd</item>
+        <item>Perm</item>
+        <item>Voronezh</item>
+        <item>Odessa</item>
+        <item>Naples</item>
+        <item>Dnipropetrovsk</item>
+        <item>Sydney</item>
+        <item>Melbourne</item>
+        <item>Brisbane</item>
+        <item>Perth</item>
+        <item>Adelaide</item>
+        <item>Gold Coast</item>
+        <item>Newcastle</item>
+        <item>Central Coast</item>
+        <item>Wollongong</item>
+        <item>Sunshine Coast</item>
+        <item>Hobart</item>
+        <item>Townsville-Thuringowa</item>
+        <item>Geelong</item>
+        <item>Cairns</item>
+        <item>Darwin-Palmerston</item>
+        <item>Toowoomba</item>
+        <item>Ballarat</item>
+        <item>Bendigo</item>
+        <item>Albury-Wodonga</item>
+        <item>Mackay</item>
+        <item>Launceston</item>
+        <item>Mandurah</item>
+        <item>Maitland</item>
+        <item>Bunbury</item>
+        <item>Rockhampton</item>
+        <item>Bundaberg</item>
+        <item>Hervey Bay</item>
+        <item>Wagga Wagga</item>
+        <item>Melton</item>
+        <item>Coffs Harbour</item>
+        <item>Shepparton</item>
+        <item>Port Macquarie</item>
+        <item>Tamworth</item>
+        <item>Orange</item>
+        <item>Mildura-Buronga</item>
+        <item>Sunbury</item>
+        <item>Pakenham</item>
+        <item>Dubbo</item>
+        <item>Gladstone</item>
+        <item>Geraldton</item>
+        <item>Bathurst</item>
+        <item>Kalgoorlie</item>
+        <item>Warrnambool</item>
+        <item>Nowra</item>
+        <item>Lismore</item>
+        <item>Albany</item>
+        <item>Mount Gambier</item>
+        <item>Traralgon</item>
+        <item>Alice Springs</item>
+        <item>Carlton </item>
+        <item>Carlton North </item>
+        <item>East Melbourne </item>
+        <item>Jolimont </item>
+        <item>Flemington </item>
+        <item>Kensington </item>
+        <item>North Melbourne </item>
+        <item>Port Melbourne </item>
+        <item>Parkville </item>
+        <item>Southbank </item>
+        <item>South Yarra </item>
+        <item>West Melbourne </item>
+        <item>World Trade Centre </item>
+        <item>Docklands</item>
+        <item>Albert Park </item>
+        <item>Balaclava </item>
+        <item>Elwood </item>
+        <item>Melbourne </item>
+        <item>Middle Park </item>
+        <item>Ripponlea </item>
+        <item>St Kilda </item>
+        <item>St Kilda East </item>
+        <item>St Kilda West </item>
+        <item>South Melbourne </item>
+        <item>Abbotsford </item>
+        <item>Alphington</item>
+        <item>Burnley </item>
+        <item>Carlton North</item>
+        <item>Clifton Hill </item>
+        <item>Collingwood </item>
+        <item>Cremorne </item>
+        <item>Fairfield </item>
+        <item>Yarra Bend</item>
+        <item>Fitzroy </item>
+        <item>Fitzroy North </item>
+        <item>Princes Hill </item>
+        <item>Richmond </item>
+        <item>Grand Bazaar</item>
+        <item>The Zócalo</item>
+        <item>Times Square</item>
+        <item>Central Park</item>
+        <item>Union Station</item>
+        <item>Las Vegas Strip</item>
+        <item>Meiji Jingu Shrine</item>
+        <item>Sensoji Temple</item>
+        <item>Niagara Falls</item>
+        <item>Grand Central Terminal</item>
+        <item>Basilica of Our Lady of Guadalupe</item>
+        <item>Disney World’s Magic Kingdom</item>
+        <item>Faneuil Hall Marketplace</item>
+        <item>Tokyo Disneyland</item>
+        <item>Disneyland Park</item>
+        <item>Forbidden City</item>
+        <item>Golden Gate National Recreation Area</item>
+        <item>Tokyo DisneySea</item>
+        <item>Notre Dame Cathedral</item>
+        <item>Golden Gate Park</item>
+        <item>Balboa Park</item>
+        <item>South Street Seaport</item>
+        <item>San Antonio River Walk</item>
+        <item>Epcot, Disney World</item>
+        <item>St. Peter’s Basilica</item>
+        <item>Great Wall of China</item>
+        <item>Sacré Coeur Basilica</item>
+        <item>Disney’s Animal Kingdom</item>
+        <item>Disney’s Hollywood Studios</item>
+        <item>Universal Studios Japan</item>
+        <item>Hollywood Walk of Fame</item>
+        <item>Pike Place Market</item>
+        <item>Great Smoky Mountains National Park</item>
+        <item>Louvre</item>
+        <item>Navy Pier</item>
+        <item>Disney’s California Adventure</item>
+        <item>Sydney Opera House</item>
+        <item>Universal’s Islands of Adventure</item>
+        <item>The Smithsonian</item>
+        <item>Grand Palace</item>
+        <item>Pier 39</item>
+        <item>Palace of Versailles</item>
+        <item>Ocean Park</item>
+        <item>Bourbon Street</item>
+        <item>National Museum of China</item>
+        <item>Hong Kong Disneyland</item>
+        <item>Lotte World</item>
+        <item>Taj Mahal</item>
+    </string-array>
+    <string-array name="Randoms">
+        <item>roof shingles</item>
+        <item>mansard roof</item>
+        <item>stone walls</item>
+        <item>paved patio</item>
+        <item>outside walls</item>
+        <item>fire escape</item>
+        <item>siding</item>
+        <item>clapboard siding</item>
+        <item>cornerstone</item>
+        <item>drawbridge</item>
+        <item>lanai</item>
+        <item>skywalk</item>
+        <item>concrete steps</item>
+        <item>porch</item>
+        <item>veranda</item>
+        <item>gate</item>
+        <item>fire hydrant</item>
+        <item>stone road</item>
+        <item>street block</item>
+        <item>sidewalk</item>
+        <item>well</item>
+        <item>artesian well</item>
+        <item>espalier</item>
+        <item>trellis</item>
+        <item>cesspool</item>
+        <item>chain-link fence</item>
+        <item>picket fence</item>
+        <item>garden</item>
+        <item>yard</item>
+        <item>grass</item>
+        <item>lawn</item>
+        <item>tower</item>
+        <item>orchard</item>
+        <item>hedge</item>
+        <item>bower</item>
+        <item>gazebo</item>
+        <item>corral</item>
+        <item>stables</item>
+        <item>paddock</item>
+        <item>cabana</item>
+        <item>carport</item>
+        <item>flower beds</item>
+        <item>cloister</item>
+        <item>belfry</item>
+        <item>cupola</item>
+        <item>vineyard</item>
+        <item>walkway</item>
+        <item>senator</item>
+        <item>governor</item>
+        <item>representative</item>
+        <item>councilman</item>
+        <item>congressman</item>
+        <item>tennis coach</item>
+        <item>detective</item>
+        <item>sleuth</item>
+        <item>trooper</item>
+        <item>musician</item>
+        <item>accompanist</item>
+        <item>instrumentalist</item>
+        <item>concert pianist</item>
+        <item>maestro</item>
+        <item>conductor</item>
+        <item>composer</item>
+        <item>singer</item>
+        <item>architect</item>
+        <item>physician</item>
+        <item>photographer</item>
+        <item>stage manager</item>
+        <item>usher</item>
+        <item>song-and-dance-man</item>
+        <item>painter</item>
+        <item>model</item>
+        <item>designer</item>
+        <item>dinner guest</item>
+        <item>attorney</item>
+        <item>lawyer</item>
+        <item>judge</item>
+        <item>mayor</item>
+        <item>city council</item>
+        <item>therapist</item>
+        <item>school teacher</item>
+        <item>school principal</item>
+        <item>professor</item>
+        <item>orator</item>
+        <item>philosopher</item>
+        <item>psychologist</item>
+        <item>man</item>
+        <item>woman</item>
+        <item>teen</item>
+        <item>child</item>
+        <item>mother</item>
+        <item>father</item>
+        <item>grandmother</item>
+        <item>grandfather</item>
+        <item>sister</item>
+        <item>brother</item>
+        <item>uncle</item>
+        <item>aunt</item>
+        <item>son</item>
+        <item>daughter</item>
+        <item>in-laws</item>
+        <item>boy</item>
+        <item>girl</item>
+        <item>nurse</item>
+        <item>sibling</item>
+        <item>settler</item>
+        <item>pioneer</item>
+        <item>waiter</item>
+        <item>hostess</item>
+        <item>host</item>
+        <item>cashier</item>
+        <item>attendant</item>
+        <item>publisher</item>
+        <item>proof-reader</item>
+        <item>agent</item>
+        <item>witch</item>
+        <item>ghost</item>
+        <item>knight</item>
+        <item>prince</item>
+        <item>princess</item>
+        <item>maiden</item>
+        <item>fairy godmother</item>
+        <item>warlock</item>
+        <item>aftershave</item>
+        <item>body lotion</item>
+        <item>cream</item>
+        <item>deodorant</item>
+        <item>eyeliner</item>
+        <item>foundation</item>
+        <item>fragrance</item>
+        <item>lipstick</item>
+        <item>makeup</item>
+        <item>mask</item>
+        <item>perfume</item>
+        <item>shampoo</item>
+        <item>soap</item>
+        <item>auburn hair</item>
+        <item>bangs</item>
+        <item>beard</item>
+        <item>black hair</item>
+        <item>blond hair</item>
+        <item>brown hair</item>
+        <item>curly hair</item>
+        <item>gray hair</item>
+        <item>kinky hair</item>
+        <item>mustache</item>
+        <item>permanent</item>
+        <item>pigtails</item>
+        <item>platinum blonde hair</item>
+        <item>ponytail</item>
+        <item>red hair</item>
+        <item>sideburns</item>
+        <item>straight hair</item>
+        <item>wavy hair</item>
+        <item>acknowledgments</item>
+        <item>appendix</item>
+        <item>bibliography</item>
+        <item>contents</item>
+        <item>copyright</item>
+        <item>dedication</item>
+        <item>explanatory notes</item>
+        <item>footnote</item>
+        <item>index</item>
+        <item>preface</item>
+        <item>text</item>
+        <item>title</item>
+        <item>Aquarius</item>
+        <item>Aries</item>
+        <item>Cancer</item>
+        <item>Capricorn</item>
+        <item>Gemini</item>
+        <item>Leo</item>
+        <item>Libra</item>
+        <item>Pisces</item>
+        <item>Sagittarius</item>
+        <item>Scorpio</item>
+        <item>Taurus</item>
+        <item>Virgo</item>
+        <item>almanac</item>
+        <item>best seller</item>
+        <item>book</item>
+        <item>booklet</item>
+        <item>brochure</item>
+        <item>comic book</item>
+        <item>dictionary</item>
+        <item>encyclopedia</item>
+        <item>hardcover</item>
+        <item>magazine</item>
+        <item>novel</item>
+        <item>paperback</item>
+        <item>periodical</item>
+        <item>pamphlet</item>
+        <item>picture book</item>
+        <item>reference book</item>
+        <item>textbook</item>
+        <item>backache</item>
+        <item>chills</item>
+        <item>cough</item>
+        <item>earache</item>
+        <item>fever</item>
+        <item>headache</item>
+        <item>infection</item>
+        <item>runny nose</item>
+        <item>sore throat</item>
+        <item>stomach ache</item>
+        <item>candles</item>
+        <item>cards</item>
+        <item>celebrate</item>
+        <item>family reunion</item>
+        <item>festival</item>
+        <item>green</item>
+        <item>greetings</item>
+        <item>holiday</item>
+        <item>jubilee</item>
+        <item>merry</item>
+        <item>Noel</item>
+        <item>parades</item>
+        <item>party</item>
+        <item>red</item>
+        <item>Scrooge</item>
+        <item>season</item>
+        <item>spirit</item>
+        <item>stocking stuffers</item>
+        <item>stockings</item>
+        <item>tidings</item>
+        <item>tradition</item>
+        <item>traffic</item>
+        <item>trips</item>
+        <item>vacation</item>
+        <item>Yuletide</item>
+        <item>beer</item>
+        <item>brandy</item>
+        <item>cocoa</item>
+        <item>cocktail</item>
+        <item>coffee</item>
+        <item>coke</item>
+        <item>green tea</item>
+        <item>ice coffee</item>
+        <item>ice tea</item>
+        <item>juice</item>
+        <item>lemonade</item>
+        <item>liquor</item>
+        <item>milk</item>
+        <item>milkshake</item>
+        <item>orange juice</item>
+        <item>punch</item>
+        <item>soda</item>
+        <item>soft drink</item>
+        <item>tea</item>
+        <item>tomato juice</item>
+        <item>water</item>
+        <item>whiskey</item>
+        <item>wine</item>
+        <item>Kahlua</item>
+        <item>Bailey\'s</item>
+        <item>Cointreau</item>
+        <item>absinthe</item>
+        <item>Grey Goose</item>
+        <item>Cristal</item>
+        <item>bacon</item>
+        <item>breakfast</item>
+        <item>buffet</item>
+        <item>cheese</item>
+        <item>chicken</item>
+        <item>chocolate</item>
+        <item>cloakroom</item>
+        <item>cook</item>
+        <item>cooking</item>
+        <item>course</item>
+        <item>cup</item>
+        <item>dessert</item>
+        <item>dining room</item>
+        <item>dinner</item>
+        <item>dish</item>
+        <item>environment</item>
+        <item>equipment</item>
+        <item>food</item>
+        <item>fork</item>
+        <item>freezer</item>
+        <item>glass</item>
+        <item>grill</item>
+        <item>hygienic</item>
+        <item>kitchen</item>
+        <item>knife</item>
+        <item>lunch</item>
+        <item>main course</item>
+        <item>meal</item>
+        <item>menu</item>
+        <item>napkin</item>
+        <item>pastry</item>
+        <item>pepper</item>
+        <item>plate</item>
+        <item>prepared</item>
+        <item>restaurant</item>
+        <item>rice</item>
+        <item>roast</item>
+        <item>salad</item>
+        <item>salt</item>
+        <item>sauce</item>
+        <item>sausages</item>
+        <item>secure</item>
+        <item>slices</item>
+        <item>soup</item>
+        <item>spoon</item>
+        <item>starter</item>
+        <item>tip</item>
+        <item>utensils</item>
+        <item>vegetables</item>
+        <item>vegetarian</item>
+        <item>waitress</item>
+        <item>weighed</item>
+        <item>appeal</item>
+        <item>capital punishment</item>
+        <item>caution</item>
+        <item>cell</item>
+        <item>community service</item>
+        <item>corporal punishment</item>
+        <item>court</item>
+        <item>court case</item>
+        <item>death penalty</item>
+        <item>defense</item>
+        <item>fine</item>
+        <item>jail</item>
+        <item>guilty</item>
+        <item>imprisonment</item>
+        <item>innocent</item>
+        <item>jury</item>
+        <item>justice</item>
+        <item>offence</item>
+        <item>prison</item>
+        <item>probation</item>
+        <item>prosecution</item>
+        <item>punishment</item>
+        <item>sentence</item>
+        <item>trial</item>
+        <item>verdict</item>
+        <item>witness</item>
+        <item>inch</item>
+        <item>foot</item>
+        <item>mile</item>
+        <item>pint</item>
+        <item>quart</item>
+        <item>gallon</item>
+        <item>ounces</item>
+        <item>pound</item>
+        <item>ton</item>
+        <item>millimeter</item>
+        <item>centimeter</item>
+        <item>meter</item>
+        <item>kilometer</item>
+        <item>lier</item>
+        <item>grams</item>
+        <item>kilograms</item>
+        <item>dime</item>
+        <item>half dollar</item>
+        <item>nickel</item>
+        <item>penny</item>
+        <item>quarter</item>
+        <item>air filter</item>
+        <item>camshaft</item>
+        <item>carburetor</item>
+        <item>cooling fan</item>
+        <item>distributor</item>
+        <item>engine block</item>
+        <item>exhaust manifold</item>
+        <item>fan belt</item>
+        <item>flywheel</item>
+        <item>gasoline pump</item>
+        <item>oil drain hole</item>
+        <item>oil pan</item>
+        <item>oil-level stick</item>
+        <item>piston</item>
+        <item>spark plug cable</item>
+        <item>amusing</item>
+        <item>angry</item>
+        <item>athletic</item>
+        <item>attractive</item>
+        <item>beautiful</item>
+        <item>boring</item>
+        <item>brave</item>
+        <item>careful</item>
+        <item>careless</item>
+        <item>charming</item>
+        <item>clever</item>
+        <item>confident</item>
+        <item>crafty</item>
+        <item>crazy</item>
+        <item>creative</item>
+        <item>cruel</item>
+        <item>cute</item>
+        <item>dangerous</item>
+        <item>dependable</item>
+        <item>easygoing</item>
+        <item>energetic</item>
+        <item>exciting</item>
+        <item>famous</item>
+        <item>forgetful</item>
+        <item>friendly</item>
+        <item>good-looking</item>
+        <item>graceful</item>
+        <item>happy</item>
+        <item>helpful</item>
+        <item>horrible</item>
+        <item>humble</item>
+        <item>humorous</item>
+        <item>inconsiderate</item>
+        <item>interesting</item>
+        <item>likable</item>
+        <item>lucky</item>
+        <item>middle class</item>
+        <item>old</item>
+        <item>outgoing</item>
+        <item>overweight</item>
+        <item>poor</item>
+        <item>popular</item>
+        <item>practical</item>
+        <item>responsible</item>
+        <item>rich</item>
+        <item>romantic</item>
+        <item>sad</item>
+        <item>selfish</item>
+        <item>skinny</item>
+        <item>stingy</item>
+        <item>successful</item>
+        <item>talkative</item>
+        <item>thin</item>
+        <item>touchy</item>
+        <item>ugly</item>
+        <item>unlucky</item>
+        <item>wealthy</item>
+        <item>young</item>
+        <item>cowboy boots</item>
+        <item>cowboy hat</item>
+        <item>gun</item>
+        <item>gun belt</item>
+        <item>herd</item>
+        <item>holster</item>
+        <item>horse</item>
+        <item>lasso</item>
+        <item>pistol</item>
+        <item>ranch</item>
+        <item>rifle</item>
+        <item>rodeo</item>
+        <item>saddle</item>
+        <item>stampede</item>
+        <item>ten-gallon hat</item>
+        <item>arsonist</item>
+        <item>blackmailer</item>
+        <item>burglar</item>
+        <item>hijacker</item>
+        <item>kidnapper</item>
+        <item>mugger</item>
+        <item>murderer</item>
+        <item>pickpocket</item>
+        <item>robber</item>
+        <item>shoplifter</item>
+        <item>smuggler</item>
+        <item>spy</item>
+        <item>terrorist</item>
+        <item>thief</item>
+        <item>vandal</item>
+        <item>anesthesiologist</item>
+        <item>dietician</item>
+        <item>doctor</item>
+        <item>medical technician</item>
+        <item>ophthalmologist</item>
+        <item>patient</item>
+        <item>pediatrician</item>
+        <item>psychiatrist</item>
+        <item>security guard</item>
+        <item>specialist</item>
+        <item>surgeon</item>
+        <item>visitor</item>
+        <item>algebra</item>
+        <item>archaeology</item>
+        <item>art</item>
+        <item>band</item>
+        <item>biology</item>
+        <item>botany</item>
+        <item>calculus</item>
+        <item>chemistry</item>
+        <item>computer science</item>
+        <item>drama</item>
+        <item>economics</item>
+        <item>English</item>
+        <item>French</item>
+        <item>geography</item>
+        <item>geology</item>
+        <item>geometry</item>
+        <item>German</item>
+        <item>gym</item>
+        <item>health</item>
+        <item>history</item>
+        <item>home economics</item>
+        <item>keyboarding</item>
+        <item>language arts</item>
+        <item>literature</item>
+        <item>math</item>
+        <item>mathematics</item>
+        <item>music</item>
+        <item>PE</item>
+        <item>physical education</item>
+        <item>physics</item>
+        <item>psychology</item>
+        <item>reading</item>
+        <item>science</item>
+        <item>social studies</item>
+        <item>world geography</item>
+        <item>writing</item>
+        <item>blizzard</item>
+        <item>boots</item>
+        <item>candle</item>
+        <item>chill</item>
+        <item>coat</item>
+        <item>cold</item>
+        <item>December</item>
+        <item>fireplace</item>
+        <item>freeze</item>
+        <item>frost</item>
+        <item>hat</item>
+        <item>ice</item>
+        <item>Merry Christmas</item>
+        <item>mittens</item>
+        <item>scarf</item>
+        <item>shovel</item>
+        <item>skates</item>
+        <item>sled</item>
+        <item>sleigh bells</item>
+        <item>snowflake</item>
+        <item>snowman</item>
+        <item>snowstorm</item>
+        <item>winter</item>
+        <item>aquatics</item>
+        <item>archery</item>
+        <item>athletics</item>
+        <item>badminton</item>
+        <item>baseball</item>
+        <item>basketball</item>
+        <item>boxing</item>
+        <item>canoeing</item>
+        <item>cycling</item>
+        <item>equestrian</item>
+        <item>fencing</item>
+        <item>football</item>
+        <item>gymnastics</item>
+        <item>handball</item>
+        <item>hockey</item>
+        <item>judo</item>
+        <item>modern pentathlon</item>
+        <item>rowing</item>
+        <item>sailing</item>
+        <item>shooting</item>
+        <item>softball</item>
+        <item>table tennis</item>
+        <item>taekwondo</item>
+        <item>tennis</item>
+        <item>triathlon</item>
+        <item>volleyball</item>
+        <item>weightlifting</item>
+        <item>backstroke</item>
+        <item>breaststroke</item>
+        <item>butterfly</item>
+        <item>crawl</item>
+        <item>deep end</item>
+        <item>diving</item>
+        <item>diving board</item>
+        <item>dog paddle</item>
+        <item>lake</item>
+        <item>life guard</item>
+        <item>ocean</item>
+        <item>river</item>
+        <item>shallow end</item>
+        <item>sidestroke</item>
+        <item>swimming lane</item>
+        <item>swimming pool</item>
+        <item>synchronized swimming</item>
+        <item>turn</item>
+        <item>teaspoonful</item>
+        <item>mouthful</item>
+        <item>painful</item>
+        <item>cupful</item>
+        <item>boastful</item>
+        <item>handful</item>
+        <item>dreadful</item>
+        <item>mournful</item>
+        <item>harmful</item>
+        <item>lawful</item>
+        <item>playful</item>
+        <item>powerful</item>
+        <item>colorful</item>
+        <item>shameful</item>
+        <item>useful</item>
+        <item>doubtful</item>
+        <item>tearful</item>
+        <item>bountiful</item>
+        <item>awful</item>
+        <item>rightful</item>
+        <item>spoonful</item>
+        <item>thoughtful</item>
+        <item>colorless</item>
+        <item>doubtless</item>
+        <item>endles</item>
+        <item>endless</item>
+        <item>fearless</item>
+        <item>helpless</item>
+        <item>homeless</item>
+        <item>hopeless</item>
+        <item>lifeless</item>
+        <item>nevertheless</item>
+        <item>restless</item>
+        <item>senseless</item>
+        <item>sightless</item>
+        <item>tasteless</item>
+        <item>useless</item>
+        <item>alarm</item>
+        <item>atomic</item>
+        <item>cell phone</item>
+        <item>century</item>
+        <item>chimes</item>
+        <item>chronometer</item>
+        <item>computer</item>
+        <item>cycle</item>
+        <item>date</item>
+        <item>day</item>
+        <item>decade</item>
+        <item>digital</item>
+        <item>epoch</item>
+        <item>equinox</item>
+        <item>era</item>
+        <item>fortnight</item>
+        <item>hour</item>
+        <item>hourglass</item>
+        <item>millennium</item>
+        <item>millisecond</item>
+        <item>minute</item>
+        <item>month</item>
+        <item>moon</item>
+        <item>pendulum</item>
+        <item>quartz</item>
+        <item>revolve</item>
+        <item>rotate</item>
+        <item>second</item>
+        <item>stopwatch</item>
+        <item>sundial</item>
+        <item>timer</item>
+        <item>watch</item>
+        <item>week</item>
+        <item>year</item>
+        <item>zone</item>
+        <item>amber</item>
+        <item>beige</item>
+        <item>black</item>
+        <item>blue</item>
+        <item>brown</item>
+        <item>crimson</item>
+        <item>cyan</item>
+        <item>grey</item>
+        <item>indigo</item>
+        <item>khaki</item>
+        <item>light blue</item>
+        <item>magenta</item>
+        <item>orange</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>violet</item>
+        <item>violet red</item>
+        <item>white</item>
+        <item>yellow</item>
+        <item>yellow green</item>
+        <item>attic</item>
+        <item>basement</item>
+        <item>bathroom</item>
+        <item>bathtub</item>
+        <item>bed</item>
+        <item>bedroom</item>
+        <item>blanket</item>
+        <item>book shelf</item>
+        <item>ceiling</item>
+        <item>chair</item>
+        <item>chest of drawers</item>
+        <item>closet</item>
+        <item>coffee table</item>
+        <item>couch</item>
+        <item>cupboard</item>
+        <item>desk</item>
+        <item>door</item>
+        <item>dryer</item>
+        <item>entrance</item>
+        <item>floor</item>
+        <item>furniture</item>
+        <item>hallway</item>
+        <item>house</item>
+        <item>living room</item>
+        <item>microwave</item>
+        <item>mirror</item>
+        <item>oven</item>
+        <item>pillow</item>
+        <item>radio</item>
+        <item>refrigerator</item>
+        <item>rocking chair</item>
+        <item>room</item>
+        <item>sink</item>
+        <item>stove</item>
+        <item>table</item>
+        <item>television</item>
+        <item>toilet</item>
+        <item>vacuum cleaner</item>
+        <item>wall</item>
+        <item>washer</item>
+        <item>window</item>
+        <item>beauty</item>
+        <item>bravery</item>
+        <item>brilliance</item>
+        <item>brutality</item>
+        <item>calm</item>
+        <item>charity</item>
+        <item>coldness</item>
+        <item>compassion</item>
+        <item>confidence</item>
+        <item>contentment</item>
+        <item>courage</item>
+        <item>curiosity</item>
+        <item>determination</item>
+        <item>ego</item>
+        <item>elegance</item>
+        <item>enthusiasm</item>
+        <item>envy</item>
+        <item>evil</item>
+        <item>fear</item>
+        <item>generosity</item>
+        <item>goodness</item>
+        <item>graciousness</item>
+        <item>hatred</item>
+        <item>honesty</item>
+        <item>honor</item>
+        <item>hope</item>
+        <item>humility</item>
+        <item>humor</item>
+        <item>insanity</item>
+        <item>integrity</item>
+        <item>intelligence</item>
+        <item>jealousy</item>
+        <item>kindness</item>
+        <item>loyalty</item>
+        <item>maturity</item>
+        <item>patience</item>
+        <item>perseverance</item>
+        <item>sanity</item>
+        <item>self-control</item>
+        <item>sensitivity</item>
+        <item>sophistication</item>
+        <item>stupidity</item>
+        <item>sympathy</item>
+        <item>talent</item>
+        <item>tolerance</item>
+        <item>trust</item>
+        <item>warmth</item>
+        <item>weakness</item>
+        <item>wisdom</item>
+        <item>wit</item>
+        <item>adoration</item>
+        <item>amazement</item>
+        <item>anger</item>
+        <item>anxiety</item>
+        <item>apprehension</item>
+        <item>clarity</item>
+        <item>delight</item>
+        <item>despair</item>
+        <item>disappointment</item>
+        <item>disbelief</item>
+        <item>excitement</item>
+        <item>fascination</item>
+        <item>friendship</item>
+        <item>grief</item>
+        <item>happiness</item>
+        <item>hate</item>
+        <item>helpfulness</item>
+        <item>helplessness</item>
+        <item>infatuation</item>
+        <item>joy</item>
+        <item>love</item>
+        <item>misery</item>
+        <item>pain</item>
+        <item>pleasure</item>
+        <item>power</item>
+        <item>pride</item>
+        <item>relaxation</item>
+        <item>relief</item>
+        <item>romance</item>
+        <item>sadness</item>
+        <item>satisfaction</item>
+        <item>silliness</item>
+        <item>sorrow</item>
+        <item>strength</item>
+        <item>surprise</item>
+        <item>tiredness</item>
+        <item>uncertainty</item>
+        <item>wariness</item>
+        <item>weariness</item>
+        <item>worry</item>
+        <item>ability</item>
+        <item>adventure</item>
+        <item>artistry</item>
+        <item>awe</item>
+        <item>belief</item>
+        <item>chaos</item>
+        <item>comfort</item>
+        <item>communication</item>
+        <item>consideration</item>
+        <item>crime</item>
+        <item>culture</item>
+        <item>customer service</item>
+        <item>death</item>
+        <item>deceit</item>
+        <item>defeat</item>
+        <item>democracy</item>
+        <item>dexterity</item>
+        <item>dictatorship</item>
+        <item>disquiet</item>
+        <item>disturbance</item>
+        <item>dreams</item>
+        <item>energy</item>
+        <item>enhancement</item>
+        <item>failure</item>
+        <item>faith</item>
+        <item>faithfulness</item>
+        <item>faithlessness</item>
+        <item>favoritism</item>
+        <item>forgiveness</item>
+        <item>fragility</item>
+        <item>frailty</item>
+        <item>freedom</item>
+        <item>gossip</item>
+        <item>grace</item>
+        <item>hearsay</item>
+        <item>homelessness</item>
+        <item>hurt</item>
+        <item>idea</item>
+        <item>idiosyncrasy</item>
+        <item>imagination</item>
+        <item>impression</item>
+        <item>improvement</item>
+        <item>inflation</item>
+        <item>information</item>
+        <item>knowledge</item>
+        <item>laughter</item>
+        <item>law</item>
+        <item>liberty</item>
+        <item>life</item>
+        <item>loss</item>
+        <item>luck</item>
+        <item>luxury</item>
+        <item>memory</item>
+        <item>mercy</item>
+        <item>motivation</item>
+        <item>movement</item>
+        <item>need</item>
+        <item>omen</item>
+        <item>opinion</item>
+        <item>opportunism</item>
+        <item>opportunity</item>
+        <item>parenthood</item>
+        <item>patriotism</item>
+        <item>peace</item>
+        <item>peculiarity</item>
+        <item>poverty</item>
+        <item>principle</item>
+        <item>reality</item>
+        <item>redemption</item>
+        <item>refreshment</item>
+        <item>riches</item>
+        <item>rumor</item>
+        <item>service</item>
+        <item>shock</item>
+        <item>skill</item>
+        <item>slavery</item>
+        <item>sleep</item>
+        <item>sparkle</item>
+        <item>speculation</item>
+        <item>speed</item>
+        <item>strictness</item>
+        <item>submission</item>
+        <item>success</item>
+        <item>thought</item>
+        <item>thrill</item>
+        <item>truth</item>
+        <item>unemployment</item>
+        <item>unreality</item>
+        <item>victory</item>
+        <item>wealth</item>
+        <item>boiling</item>
+        <item>breeze</item>
+        <item>broken</item>
+        <item>bumpy</item>
+        <item>chilly</item>
+        <item>cool</item>
+        <item>creepy</item>
+        <item>crooked</item>
+        <item>cuddly</item>
+        <item>curly</item>
+        <item>damaged</item>
+        <item>damp</item>
+        <item>dirty</item>
+        <item>dry</item>
+        <item>dusty</item>
+        <item>filthy</item>
+        <item>flaky</item>
+        <item>fluffy</item>
+        <item>freezing</item>
+        <item>hot</item>
+        <item>warm</item>
+        <item>wet</item>
+        <item>bitter</item>
+        <item>delicious</item>
+        <item>fresh</item>
+        <item>greasy</item>
+        <item>juicy</item>
+        <item>icy</item>
+        <item>loose</item>
+        <item>melted</item>
+        <item>nutritious</item>
+        <item>prickly</item>
+        <item>rainy</item>
+        <item>rotten</item>
+        <item>salty</item>
+        <item>sticky</item>
+        <item>strong</item>
+        <item>sweet</item>
+        <item>tart</item>
+        <item>uneven</item>
+        <item>weak</item>
+        <item>wooden</item>
+        <item>yummy</item>
+        <item>ancient</item>
+        <item>brief</item>
+        <item>early</item>
+        <item>fast</item>
+        <item>late</item>
+        <item>long</item>
+        <item>modern</item>
+        <item>old-fashioned</item>
+        <item>quick</item>
+        <item>rapid</item>
+        <item>short</item>
+        <item>slow</item>
+        <item>swift</item>
+        <item>cooing</item>
+        <item>deafening</item>
+        <item>faint</item>
+        <item>hissing</item>
+        <item>loud</item>
+        <item>melodic</item>
+        <item>noisy</item>
+        <item>purring</item>
+        <item>quiet</item>
+        <item>raspy</item>
+        <item>screeching</item>
+        <item>thundering</item>
+        <item>voiceless</item>
+        <item>whispering</item>
+        <item>big</item>
+        <item>colossal</item>
+        <item>fat</item>
+        <item>gigantic</item>
+        <item>great</item>
+        <item>huge</item>
+        <item>immense</item>
+        <item>large</item>
+        <item>little</item>
+        <item>mammoth</item>
+        <item>massive</item>
+        <item>miniature</item>
+        <item>petite</item>
+        <item>puny</item>
+        <item>scrawny</item>
+        <item>small</item>
+        <item>tall</item>
+        <item>teeny-tiny</item>
+        <item>tiny</item>
+        <item>broad</item>
+        <item>chubby</item>
+        <item>curved</item>
+        <item>deep</item>
+        <item>flat</item>
+        <item>high</item>
+        <item>hollow</item>
+        <item>low</item>
+        <item>narrow</item>
+        <item>round</item>
+        <item>shallow</item>
+        <item>square</item>
+        <item>steep</item>
+        <item>straight</item>
+        <item>wide</item>
+        <item>able</item>
+        <item>achieve</item>
+        <item>acoustics</item>
+        <item>action</item>
+        <item>activity</item>
+        <item>aftermath</item>
+        <item>afternoon</item>
+        <item>afterthought</item>
+        <item>apparel</item>
+        <item>appliance</item>
+        <item>beginner</item>
+        <item>believe</item>
+        <item>bomb</item>
+        <item>border</item>
+        <item>boundary</item>
+        <item>cabbage</item>
+        <item>cable</item>
+        <item>calculator</item>
+        <item>calendar</item>
+        <item>caption</item>
+        <item>carpenter</item>
+        <item>cemetery</item>
+        <item>channel</item>
+        <item>circle</item>
+        <item>creator</item>
+        <item>creature</item>
+        <item>education</item>
+        <item>faucet</item>
+        <item>feather</item>
+        <item>friction</item>
+        <item>fruit</item>
+        <item>fuel</item>
+        <item>galley</item>
+        <item>guide</item>
+        <item>guitar</item>
+        <item>heart</item>
+        <item>kitten</item>
+        <item>laborer</item>
+        <item>language</item>
+        <item>linen</item>
+        <item>locket</item>
+        <item>lumber</item>
+        <item>magic</item>
+        <item>minister</item>
+        <item>mitten</item>
+        <item>money</item>
+        <item>mountain</item>
+        <item>partner</item>
+        <item>passenger</item>
+        <item>pickle</item>
+        <item>picture</item>
+        <item>plantation</item>
+        <item>plastic</item>
+        <item>pocket</item>
+        <item>police</item>
+        <item>pollution</item>
+        <item>railway</item>
+        <item>recess</item>
+        <item>reward</item>
+        <item>route</item>
+        <item>scene</item>
+        <item>scent</item>
+        <item>squirrel</item>
+        <item>stranger</item>
+        <item>suit</item>
+        <item>sweater</item>
+        <item>temper</item>
+        <item>territory</item>
+        <item>texture</item>
+        <item>thread</item>
+        <item>treatment</item>
+        <item>veil</item>
+        <item>vein</item>
+        <item>volcano</item>
+        <item>weather</item>
+        <item>wilderness</item>
+        <item>wren</item>
+        <item>wrist</item>
+        <item>writer</item>
+    </string-array>
+    <string-array name="Natures">
+        <item>whisker</item>
+        <item>paws</item>
+        <item>hoofs</item>
+        <item>tail</item>
+        <item>wings</item>
+        <item>antlers</item>
+        <item>beak</item>
+        <item>bill</item>
+        <item>rooster\'s comb</item>
+        <item>horn</item>
+        <item>pouch</item>
+        <item>pelt</item>
+        <item>fur</item>
+        <item>quill</item>
+        <item>dinosaur</item>
+        <item>mammoth</item>
+        <item>Tyrannosaurus Rex</item>
+        <item>frog\'s leg</item>
+        <item>spider</item>
+        <item>moth</item>
+        <item>bug</item>
+        <item>cockroach</item>
+        <item>June bugs</item>
+        <item>ant</item>
+        <item>fire ant</item>
+        <item>bat</item>
+        <item>vulture</item>
+        <item>owl</item>
+        <item>peacock</item>
+        <item>toad</item>
+        <item>turtle</item>
+        <item>worm</item>
+        <item>earthworm</item>
+        <item>porcupine</item>
+        <item>skunk</item>
+        <item>armadillo</item>
+        <item>rat</item>
+        <item>squirrel</item>
+        <item>hedgehog</item>
+        <item>chipmunk</item>
+        <item>gerbil</item>
+        <item>hamster</item>
+        <item>opossum</item>
+        <item>mouse</item>
+        <item>mole</item>
+        <item>anteater</item>
+        <item>platypus</item>
+        <item>otter</item>
+        <item>calf</item>
+        <item>cow</item>
+        <item>oxen</item>
+        <item>cattle</item>
+        <item>sheep</item>
+        <item>lamb</item>
+        <item>ram</item>
+        <item>goat</item>
+        <item>kid</item>
+        <item>pig</item>
+        <item>hog</item>
+        <item>shoat</item>
+        <item>sow</item>
+        <item>fox</item>
+        <item>vixen</item>
+        <item>lemur</item>
+        <item>raccoon</item>
+        <item>weasel</item>
+        <item>monkey</item>
+        <item>ape</item>
+        <item>chimpanzee</item>
+        <item>orangutan</item>
+        <item>baboon</item>
+        <item>capuchin monkey</item>
+        <item>horse</item>
+        <item>pony</item>
+        <item>pinto</item>
+        <item>mare</item>
+        <item>filly</item>
+        <item>gelding</item>
+        <item>bronco</item>
+        <item>colt</item>
+        <item>stallion</item>
+        <item>donkey</item>
+        <item>jack</item>
+        <item>zebra</item>
+        <item>mule</item>
+        <item>camel</item>
+        <item>dromedary</item>
+        <item>gazelle</item>
+        <item>capon</item>
+        <item>tom</item>
+        <item>bird</item>
+        <item>goose</item>
+        <item>duck</item>
+        <item>drake</item>
+        <item>gander</item>
+        <item>turkey</item>
+        <item>gobbler</item>
+        <item>songbird</item>
+        <item>lark</item>
+        <item>nightingale</item>
+        <item>wren</item>
+        <item>eagle</item>
+        <item>hawk</item>
+        <item>osprey</item>
+        <item>puppy</item>
+        <item>kitten</item>
+        <item>chick</item>
+        <item>rooster</item>
+        <item>hen</item>
+        <item>crows</item>
+        <item>raven</item>
+        <item>cats</item>
+        <item>kittens</item>
+        <item>alley cat</item>
+        <item>calico</item>
+        <item>tabby</item>
+        <item>Siamese</item>
+        <item>dog</item>
+        <item>mutt</item>
+        <item>wolf</item>
+        <item>cub</item>
+        <item>tiger</item>
+        <item>lion</item>
+        <item>elephant</item>
+        <item>cheetah</item>
+        <item>puma</item>
+        <item>boar</item>
+        <item>jackal</item>
+        <item>jaguar</item>
+        <item>ocelot</item>
+        <item>rhinoceros</item>
+        <item>alpaca</item>
+        <item>antelope</item>
+        <item>elk</item>
+        <item>deer</item>
+        <item>doe</item>
+        <item>fawn</item>
+        <item>stag</item>
+        <item>kangaroo</item>
+        <item>joey</item>
+        <item>koala</item>
+        <item>sloth</item>
+        <item>emu</item>
+        <item>wallaby</item>
+        <item>wombat</item>
+        <item>bear</item>
+        <item>polar bear</item>
+        <item>hyena</item>
+        <item>panda</item>
+        <item>alligator</item>
+        <item>crocodile</item>
+        <item>snakes</item>
+        <item>giraffe</item>
+        <item>Gila monster</item>
+        <item>sewer rat</item>
+        <item>pinworms</item>
+        <item>horse fly</item>
+        <item>wasps</item>
+        <item>honeybee</item>
+        <item>hornet</item>
+        <item>fish</item>
+        <item>whale</item>
+        <item>shark</item>
+        <item>dolphin</item>
+        <item>grouper</item>
+        <item>kingfish</item>
+        <item>seal</item>
+        <item>sea lion</item>
+        <item>petal</item>
+        <item>sepal</item>
+        <item>stamen</item>
+        <item>pine</item>
+        <item>bud</item>
+        <item>branch</item>
+        <item>blossom</item>
+        <item>fruit</item>
+        <item>bloom</item>
+        <item>maple</item>
+        <item>elm</item>
+        <item>oak</item>
+        <item>palm</item>
+        <item>baobab</item>
+        <item>mangrove</item>
+        <item>cyprus</item>
+        <item>dogwood</item>
+        <item>alder</item>
+        <item>rose</item>
+        <item>tulip</item>
+        <item>cyclamen</item>
+        <item>lily</item>
+        <item>carnations</item>
+        <item>wisteria</item>
+        <item>Venus flytrap</item>
+        <item>weeds</item>
+        <item>cotton plants</item>
+        <item>sugar canes</item>
+        <item>red palms</item>
+        <item>sego palms</item>
+        <item>queen palms</item>
+        <item>apple</item>
+        <item>lemon</item>
+        <item>orange</item>
+        <item>grapefruit</item>
+        <item>tangerine</item>
+        <item>peach</item>
+        <item>tomato</item>
+        <item>bananas</item>
+        <item>artichoke</item>
+        <item>leek</item>
+        <item>lettuce</item>
+        <item>eggplant</item>
+        <item>zucchini</item>
+        <item>squash</item>
+        <item>pumpkin</item>
+        <item>cauliflower</item>
+        <item>cabbage</item>
+        <item>pepper</item>
+        <item>onion</item>
+        <item>garlic</item>
+        <item>ocean</item>
+        <item>oasis</item>
+        <item>sea</item>
+        <item>lake</item>
+        <item>salt lake</item>
+        <item>sea foam</item>
+        <item>waves</item>
+        <item>bubbles</item>
+        <item>current</item>
+        <item>run-off water</item>
+        <item>underground water</item>
+        <item>water basin</item>
+        <item>bridge</item>
+        <item>harbor</item>
+        <item>pond</item>
+        <item>shore</item>
+        <item>beach</item>
+        <item>sandbar</item>
+        <item>coast</item>
+        <item>river</item>
+        <item>brook</item>
+        <item>rivulet</item>
+        <item>puddle</item>
+        <item>waterfall</item>
+        <item>cascades</item>
+        <item>canal</item>
+        <item>channel</item>
+        <item>stream</item>
+        <item>creek</item>
+        <item>marsh</item>
+        <item>bog</item>
+        <item>swamp</item>
+        <item>bayou</item>
+        <item>estuary</item>
+        <item>whirlpool</item>
+        <item>eddy</item>
+        <item>geyser</item>
+        <item>well</item>
+        <item>monsoon</item>
+        <item>hurricane</item>
+        <item>typhoon</item>
+        <item>air</item>
+        <item>snow</item>
+        <item>rain</item>
+        <item>sleet</item>
+        <item>storm</item>
+        <item>hail</item>
+        <item>blizzard</item>
+        <item>wind</item>
+        <item>breeze</item>
+        <item>gale</item>
+        <item>whirlwind</item>
+        <item>maelstrom</item>
+        <item>dust storm</item>
+        <item>cloudburst</item>
+        <item>tornado</item>
+        <item>twister</item>
+        <item>cloud</item>
+        <item>fog</item>
+        <item>pea soup</item>
+        <item>flood</item>
+        <item>flash flood</item>
+        <item>acid rain</item>
+        <item>aftershock</item>
+        <item>tremor</item>
+        <item>earthquake</item>
+        <item>lightning</item>
+        <item>eclipse</item>
+        <item>alpenglow</item>
+        <item>meteor shower</item>
+        <item>thunderbolt</item>
+        <item>tsunami</item>
+        <item>thunderhead</item>
+        <item>waterspout</item>
+        <item>smog</item>
+        <item>avalanche</item>
+        <item>bass</item>
+        <item>carp</item>
+        <item>cod</item>
+        <item>crab</item>
+        <item>crawdad</item>
+        <item>crayfish</item>
+        <item>eel</item>
+        <item>halibut</item>
+        <item>herring</item>
+        <item>lobster</item>
+        <item>oyster</item>
+        <item>perch</item>
+        <item>pike</item>
+        <item>salmon</item>
+        <item>sardine</item>
+        <item>shrimp</item>
+        <item>sturgeon</item>
+        <item>tadpole</item>
+        <item>trout</item>
+        <item>tuna</item>
+        <item>swordfish</item>
+        <item>capricorn</item>
+        <item>abominable snowman</item>
+        <item>android</item>
+        <item>dragon</item>
+        <item>Martian</item>
+        <item>mermaid</item>
+        <item>nessie</item>
+        <item>ogre</item>
+        <item>phoenix</item>
+        <item>robot</item>
+        <item>snowman</item>
+        <item>sphinx</item>
+        <item>spirit</item>
+        <item>unicorn</item>
+        <item>vampire</item>
+        <item>werewolf</item>
+        <item>begonia</item>
+        <item>carnation</item>
+        <item>crocus</item>
+        <item>daffodil</item>
+        <item>dahlia</item>
+        <item>daisy</item>
+        <item>foxglove</item>
+        <item>geranium</item>
+        <item>gladiolus</item>
+        <item>hyacinth</item>
+        <item>iris</item>
+        <item>jasmine</item>
+        <item>lilac</item>
+        <item>mimosa</item>
+        <item>narcissus</item>
+        <item>orchid</item>
+        <item>pansy</item>
+        <item>peony</item>
+        <item>poppy</item>
+        <item>sunflower</item>
+        <item>thistle</item>
+        <item>violet</item>
+        <item>ash</item>
+        <item>beech</item>
+        <item>birch</item>
+        <item>conifer</item>
+        <item>fir</item>
+        <item>larch</item>
+        <item>spruce</item>
+        <item>sycamore</item>
+        <item>weeping willow</item>
+        <item>willow</item>
+        <item>yew</item>
+        <item>apple tree</item>
+        <item>cherry tree</item>
+        <item>orange tree</item>
+        <item>peach tree</item>
+        <item>grapefruit tree</item>
+        <item>banana tree</item>
+        <item>mango tree</item>
+        <item>nectarine tree</item>
+        <item>plum tree</item>
+        <item>bean sprouts</item>
+        <item>broad beans</item>
+        <item>chick peas</item>
+        <item>corn</item>
+        <item>green beans</item>
+        <item>lentils</item>
+        <item>popcorn</item>
+        <item>snow peas</item>
+        <item>soybeans</item>
+        <item>beet</item>
+        <item>carrot</item>
+        <item>Japanese radish</item>
+        <item>kohlrabi</item>
+        <item>parsnip</item>
+        <item>potato</item>
+        <item>radish</item>
+        <item>rutabaga</item>
+        <item>sweet potato</item>
+        <item>yam</item>
+        <item>Brussel sprouts</item>
+        <item>celery</item>
+        <item>chard</item>
+        <item>chicory</item>
+        <item>Chinese cabbage</item>
+        <item>kale</item>
+        <item>luttuce</item>
+        <item>spinach</item>
+        <item>water cress</item>
+        <item>chive</item>
+        <item>green onion</item>
+        <item>scallion</item>
+        <item>shallot</item>
+        <item>bee</item>
+        <item>caterpiller</item>
+        <item>cicada</item>
+        <item>cricket</item>
+        <item>dragonfly</item>
+        <item>fly</item>
+        <item>grasshopper</item>
+        <item>insects</item>
+        <item>locust</item>
+        <item>mosquito</item>
+        <item>Boa</item>
+        <item>Brown Snake</item>
+        <item>Cobra</item>
+        <item>Coral Snake</item>
+        <item>Green Snake</item>
+        <item>King Cobra</item>
+        <item>Python</item>
+        <item>Rat Snake</item>
+        <item>Rattlesnake</item>
+        <item>Viper</item>
+        <item>Afghan Hound</item>
+        <item>Airedale</item>
+        <item>Airedale Terrier</item>
+        <item>Basenji</item>
+        <item>Basset Hound</item>
+        <item>Beagle</item>
+        <item>Bloodhound</item>
+        <item>Border Collie</item>
+        <item>Boxer</item>
+        <item>Bulldog</item>
+        <item>Chihuahua</item>
+        <item>Chow Chow</item>
+        <item>Cocker Spaniel</item>
+        <item>Corgi</item>
+        <item>Dachshund</item>
+        <item>Dalmatian</item>
+        <item>Doberman</item>
+        <item>Fox Terrier</item>
+        <item>German Shepherd</item>
+        <item>Golden Retriever</item>
+        <item>Great Dane</item>
+        <item>Greyhound</item>
+        <item>Irish Setter</item>
+        <item>Labrador</item>
+        <item>Lhasa Apso</item>
+        <item>Newfoundland</item>
+        <item>Pekingese</item>
+        <item>Pit Bull Terrier</item>
+        <item>Pointer</item>
+        <item>Pomeranian</item>
+        <item>Poodle</item>
+        <item>Saint Bernard</item>
+        <item>Schnauzer</item>
+        <item>Scottish Terrier</item>
+        <item>Sheepdog</item>
+        <item>Shih Tzu</item>
+        <item>Siberian Husky</item>
+        <item>Spaniel</item>
+        <item>Spitz</item>
+        <item>albatross</item>
+        <item>buzzard</item>
+        <item>condor</item>
+        <item>cormorant</item>
+        <item>crow</item>
+        <item>duckling</item>
+        <item>gosling</item>
+        <item>grouse</item>
+        <item>heron</item>
+        <item>partridge</item>
+        <item>pelican</item>
+        <item>pheasant</item>
+        <item>ptarmigan</item>
+        <item>puffin</item>
+        <item>quail</item>
+        <item>seagull</item>
+        <item>sparrow</item>
+        <item>swallow</item>
+        <item>swan</item>
+        <item>ant</item>
+        <item>cat</item>
+        <item>chicken</item>
+        <item>frog</item>
+        <item>goldfish</item>
+        <item>hippopotamus</item>
+        <item>leopard</item>
+        <item>lizard</item>
+        <item>octopus</item>
+        <item>ostrich</item>
+        <item>parrot</item>
+        <item>pigeon</item>
+        <item>rabbit</item>
+        <item>reindeer</item>
+        <item>scorpion</item>
+        <item>snail</item>
+        <item>snake</item>
+        <item>squid</item>
+        <item>tortoise</item>
+        <item>walrus</item>
+        <item>bull</item>
+        <item>aardvark</item>
+        <item>llama</item>
+        <item>badger</item>
+        <item>beaver</item>
+        <item>cougar</item>
+        <item>gorilla</item>
+        <item>panther</item>
+        <item>lynx</item>
+        <item>bobcat</item>
+        <item>Abyssinian</item>
+        <item>American Bobtail</item>
+        <item>Angora</item>
+        <item>Balinese</item>
+        <item>Bengal</item>
+        <item>Himalayan</item>
+        <item>Japanese Bobtail</item>
+        <item>Manx</item>
+        <item>Persian</item>
+        <item>Siberian</item>
+        <item>Sphynx</item>
+        <item>barley</item>
+        <item>millet</item>
+        <item>oats</item>
+        <item>rice</item>
+        <item>rye</item>
+        <item>brown rice</item>
+        <item>short grain rice</item>
+        <item>long grain rice</item>
+        <item>soy beans</item>
+        <item>wheat</item>
+        <item>asparagus</item>
+        <item>beans</item>
+        <item>broccoli</item>
+        <item>Brussels sprouts</item>
+        <item>cucumber</item>
+        <item>green pepper</item>
+        <item>okra</item>
+        <item>peas</item>
+        <item>pumpkins</item>
+        <item>tomatoes</item>
+        <item>turnips</item>
+        <item>kumquat</item>
+        <item>lime</item>
+        <item>Mandarin orange</item>
+        <item>navel orange</item>
+        <item>pink grapefruit</item>
+        <item>white grapefruit</item>
+        <item>gold</item>
+        <item>silver</item>
+        <item>iron</item>
+        <item>aluminium</item>
+        <item>copper</item>
+        <item>steel</item>
+        <item>brass</item>
+        <item>tin</item>
+        <item>zinc</item>
+        <item>lead</item>
+        <item>nickel</item>
+        <item>platinum</item>
+        <item>titanium</item>
+        <item>mercury</item>
+        <item>bronze</item>
+        <item>butane</item>
+        <item>carbon dioxide</item>
+        <item>carbon monoxide</item>
+        <item>freon</item>
+        <item>helium</item>
+        <item>hydrogen</item>
+        <item>methane</item>
+        <item>neon</item>
+        <item>nitric oxide</item>
+        <item>nitrogen</item>
+        <item>oxygen</item>
+        <item>propane</item>
+        <item>eye</item>
+        <item>pupil</item>
+        <item>retina</item>
+        <item>eyeball</item>
+        <item>eyelids eyelashes</item>
+        <item>eyebrows</item>
+        <item>lap</item>
+        <item>waist</item>
+        <item>belly</item>
+        <item>tummy</item>
+        <item>rear end</item>
+        <item>crotch</item>
+        <item>abdomen</item>
+        <item>beard</item>
+        <item>mustache</item>
+        <item>sideburns</item>
+        <item>fingernail</item>
+        <item>hand</item>
+        <item>forearm</item>
+        <item>arm</item>
+        <item>knuckles</item>
+        <item>thumb</item>
+        <item>wrist</item>
+        <item>elbow</item>
+        <item>leg</item>
+        <item>toes</item>
+        <item>knee</item>
+        <item>ankle</item>
+        <item>shin</item>
+        <item>thigh</item>
+        <item>hip</item>
+        <item>breast</item>
+        <item>chest</item>
+        <item>torso</item>
+        <item>tongue</item>
+        <item>lips</item>
+        <item>gums</item>
+        <item>mouth</item>
+        <item>teeth</item>
+        <item>bones</item>
+        <item>spine</item>
+        <item>throat</item>
+        <item>lungs</item>
+        <item>kidneys</item>
+        <item>intestines</item>
+        <item>colon</item>
+        <item>gall bladder</item>
+        <item>spleen</item>
+        <item>glands</item>
+        <item>blood</item>
+        <item>head</item>
+        <item>skull</item>
+        <item>brain</item>
+        <item>muscles</item>
+        <item>red blisters</item>
+        <item>curly hair</item>
+        <item>allspice</item>
+        <item>angelica</item>
+        <item>anise</item>
+        <item>bay leaf</item>
+        <item>basil</item>
+        <item>bergamot</item>
+        <item>black mustard</item>
+        <item>black pepper</item>
+        <item>borage</item>
+        <item>brown mustard</item>
+        <item>burnet</item>
+        <item>caraway</item>
+        <item>cardamom</item>
+        <item>cassia</item>
+        <item>catnip</item>
+        <item>cayenne pepper</item>
+        <item>celery seed</item>
+        <item>chervil</item>
+        <item>chili pepper</item>
+        <item>chives</item>
+        <item>cicely</item>
+        <item>cilantro</item>
+        <item>cinnamon</item>
+        <item>clove</item>
+        <item>coriander</item>
+        <item>costmary</item>
+        <item>cumin</item>
+        <item>curry</item>
+        <item>dill</item>
+        <item>fennel</item>
+        <item>fenugreek</item>
+        <item>filé</item>
+        <item>ginger</item>
+        <item>grains of paradise</item>
+        <item>horseradish</item>
+        <item>hyssop</item>
+        <item>lavender</item>
+        <item>lemon balm</item>
+        <item>lemon grass</item>
+        <item>lemon verbena</item>
+        <item>licorice</item>
+        <item>lovage</item>
+        <item>mace</item>
+        <item>marjoram</item>
+        <item>nutmeg</item>
+        <item>oregano</item>
+        <item>paprika</item>
+        <item>parsley</item>
+        <item>peppermint</item>
+        <item>poppy seed</item>
+        <item>rosemary</item>
+        <item>rue</item>
+        <item>saffron</item>
+        <item>sage</item>
+        <item>savory</item>
+        <item>sesame</item>
+        <item>sorrel</item>
+        <item>star anise</item>
+        <item>spearmint</item>
+        <item>tarragon</item>
+        <item>thyme</item>
+        <item>turmeric</item>
+        <item>vanilla</item>
+        <item>white mustard</item>
+        <item>anemone</item>
+        <item>apple blossom</item>
+        <item>aster</item>
+        <item>azalea</item>
+        <item>baby\'s breath</item>
+        <item>bachelor button</item>
+        <item>bellflower</item>
+        <item>bells of Ireland</item>
+        <item>bitterroot</item>
+        <item>black-eyed Susan</item>
+        <item>bluebells</item>
+        <item>bluebonnet</item>
+        <item>bougainvillea</item>
+        <item>bouquet</item>
+        <item>buttercup</item>
+        <item>butterfly bush</item>
+        <item>California poppy</item>
+        <item>calendula</item>
+        <item>calla lily</item>
+        <item>camellia</item>
+        <item>candytuft</item>
+        <item>canna</item>
+        <item>carrion flower</item>
+        <item>chrysanthemum</item>
+        <item>clover</item>
+        <item>columbine</item>
+        <item>cornflower</item>
+        <item>corpse flower</item>
+        <item>cosmo</item>
+        <item>dandelion</item>
+        <item>delphinium</item>
+        <item>dianthus</item>
+        <item>edelweiss</item>
+        <item>floret</item>
+        <item>florist</item>
+        <item>flower</item>
+        <item>forget-me-not</item>
+        <item>freesia</item>
+        <item>gardenia</item>
+        <item>gerbera daisy</item>
+        <item>gillyflower</item>
+        <item>goldenrod</item>
+        <item>hawthorn</item>
+        <item>heather</item>
+        <item>hibiscus</item>
+        <item>hollyhock</item>
+        <item>honeysuckle</item>
+        <item>hydrangea</item>
+        <item>Indian blanket</item>
+        <item>jessamine</item>
+        <item>Johnny-jump-up</item>
+        <item>jonquil</item>
+        <item>kangaroo paw</item>
+        <item>lady\'s slipper</item>
+        <item>lantana</item>
+        <item>larkspur</item>
+        <item>laurel</item>
+        <item>lily-of-the-valley</item>
+        <item>magnolia</item>
+        <item>mallow</item>
+        <item>marigold</item>
+        <item>mayflower</item>
+        <item>mistletoe</item>
+        <item>mock orange</item>
+        <item>morning glory</item>
+        <item>mountain laurel</item>
+        <item>myrtle</item>
+        <item>nasturtium</item>
+        <item>oleander</item>
+        <item>orange blossom</item>
+        <item>pasque flower</item>
+        <item>passionflower</item>
+        <item>peach blossom</item>
+        <item>phlox</item>
+        <item>plumeria</item>
+        <item>poinsettia</item>
+        <item>primrose</item>
+        <item>pussy willow</item>
+        <item>Queen Anne\'s lace</item>
+        <item>ranunculus</item>
+        <item>rhododendron</item>
+        <item>safflower</item>
+        <item>sego lily</item>
+        <item>snapdragon</item>
+        <item>stock</item>
+        <item>sweet pea</item>
+        <item>tickseed</item>
+        <item>tiger lily</item>
+        <item>trillium</item>
+        <item>veronica</item>
+        <item>vetch</item>
+        <item>wallflower</item>
+        <item>wildflowers</item>
+        <item>wild prairie rose</item>
+        <item>wolfsbane</item>
+        <item>yucca flower</item>
+        <item>zinnia</item>
+        <item>anchovy</item>
+        <item>angelfish</item>
+        <item>angelshark</item>
+        <item>barb</item>
+        <item>barracuda</item>
+        <item>basking shark</item>
+        <item>blenny</item>
+        <item>blowfish</item>
+        <item>bluefin tuna</item>
+        <item>blue shark</item>
+        <item>bonito</item>
+        <item>bony fish</item>
+        <item>bull shark</item>
+        <item>catfish</item>
+        <item>chub</item>
+        <item>clownfish</item>
+        <item>coelacanth</item>
+        <item>cookiecutter shark</item>
+        <item>crappie</item>
+        <item>darter</item>
+        <item>devil ray</item>
+        <item>dogfish</item>
+        <item>dory</item>
+        <item>dragonfish</item>
+        <item>Dunkleosteus</item>
+        <item>electric eel</item>
+        <item>elver</item>
+        <item>Emperor angelfish</item>
+        <item>flounder</item>
+        <item>flying fish</item>
+        <item>Galapagos shark</item>
+        <item>gar</item>
+        <item>glassfish</item>
+        <item>goby</item>
+        <item>grayling</item>
+        <item>great white shark</item>
+        <item>Greenland shark</item>
+        <item>grunion</item>
+        <item>gulper eel</item>
+        <item>guppy</item>
+        <item>haddock</item>
+        <item>hagfish</item>
+        <item>hake</item>
+        <item>hammerhead shark</item>
+        <item>hatchetfish</item>
+        <item>icefish</item>
+        <item>jackfish</item>
+        <item>john dory</item>
+        <item>koi</item>
+        <item>lake trout</item>
+        <item>lamprey</item>
+        <item>lanternfish</item>
+        <item>lemon shark</item>
+        <item>ling cod</item>
+        <item>loach</item>
+        <item>luminous shark</item>
+        <item>lungfish</item>
+        <item>mackerel</item>
+        <item>mako shark</item>
+        <item>manta ray</item>
+        <item>marlin</item>
+        <item>Megalodon</item>
+        <item>megamouth shark</item>
+        <item>minnow</item>
+        <item>monkfish</item>
+        <item>moray eel</item>
+        <item>mullet</item>
+        <item>needlefish</item>
+        <item>nurse shark</item>
+        <item>oarfish</item>
+        <item>orange roughy</item>
+        <item>Orthacanthus</item>
+        <item>paddlefish</item>
+        <item>parrotfish</item>
+        <item>pilot fish</item>
+        <item>piranha</item>
+        <item>pollock</item>
+        <item>pompano</item>
+        <item>porgy</item>
+        <item>Port Jackson shark</item>
+        <item>pufferfish</item>
+        <item>pupfish</item>
+        <item>queen triggerfish</item>
+        <item>quillfish</item>
+        <item>ray</item>
+        <item>remora</item>
+        <item>rockfish</item>
+        <item>roughy</item>
+        <item>sailfish</item>
+        <item>sawfish</item>
+        <item>sculpin</item>
+        <item>seabass</item>
+        <item>seadragon</item>
+        <item>seahorse</item>
+        <item>shad</item>
+        <item>skate</item>
+        <item>smelt</item>
+        <item>snapper</item>
+        <item>sole</item>
+        <item>stingray</item>
+        <item>sunfish</item>
+        <item>tarpon</item>
+        <item>tetra</item>
+        <item>three-spine stickleback</item>
+        <item>thresher shark</item>
+        <item>tiger shark</item>
+        <item>triggerfish</item>
+        <item>tunny</item>
+        <item>turbot</item>
+        <item>upside-down catfish</item>
+        <item>velvetfish</item>
+        <item>viperfish</item>
+        <item>walleye</item>
+        <item>whale shark</item>
+        <item>whiting</item>
+        <item>wrasse</item>
+        <item>x-ray tetra</item>
+        <item>yellowjack</item>
+        <item>yellowtail</item>
+        <item>zebra bullhead shark</item>
+        <item>zebrafis</item>
+        <item>African gray parrot</item>
+        <item>African penguin</item>
+        <item>American flamingo</item>
+        <item>American golden plover</item>
+        <item>American Robin</item>
+        <item>American tree sparrow</item>
+        <item>archaeopteryx</item>
+        <item>Arctic tern</item>
+        <item>auk</item>
+        <item>avian</item>
+        <item>aviary</item>
+        <item>avifauna</item>
+        <item>avocet</item>
+        <item>bald eagle</item>
+        <item>barn owl</item>
+        <item>bird of paradise</item>
+        <item>bird watching</item>
+        <item>bittern</item>
+        <item>blackbird</item>
+        <item>black swan</item>
+        <item>bluebird</item>
+        <item>blue jay</item>
+        <item>bobolink</item>
+        <item>bobwhite</item>
+        <item>bowerbird</item>
+        <item>brood</item>
+        <item>brown pelican</item>
+        <item>budgerigar</item>
+        <item>budgie</item>
+        <item>bullfinch</item>
+        <item>bunting</item>
+        <item>Canada goose</item>
+        <item>canary</item>
+        <item>cardinal</item>
+        <item>cassowary</item>
+        <item>catbird</item>
+        <item>chickadee</item>
+        <item>clutch</item>
+        <item>cockatiel</item>
+        <item>cockatoo</item>
+        <item>common rhea</item>
+        <item>congregation</item>
+        <item>coot</item>
+        <item>covey</item>
+        <item>cowbird</item>
+        <item>crake</item>
+        <item>crane</item>
+        <item>creeper</item>
+        <item>crest</item>
+        <item>crossbill</item>
+        <item>cuckoo</item>
+        <item>curlew</item>
+        <item>Dinornis</item>
+        <item>dove</item>
+        <item>downy woodpecker</item>
+        <item>egg</item>
+        <item>eastern bluebird</item>
+        <item>egret</item>
+        <item>eider</item>
+        <item>emperor penguin</item>
+        <item>falcon</item>
+        <item>feather</item>
+        <item>finch</item>
+        <item>flamingo</item>
+        <item>fledge</item>
+        <item>fledgling</item>
+        <item>flicker</item>
+        <item>flight</item>
+        <item>flight feathers</item>
+        <item>flightless</item>
+        <item>flock</item>
+        <item>flycatcher</item>
+        <item>fowl</item>
+        <item>frigatebird</item>
+        <item>gizzard</item>
+        <item>golden eagle</item>
+        <item>gnatcatcher</item>
+        <item>goldfinch</item>
+        <item>grackle</item>
+        <item>great egret</item>
+        <item>great horned owl</item>
+        <item>grebe</item>
+        <item>grosbeak</item>
+        <item>gull</item>
+        <item>gyrfalcon</item>
+        <item>harpy eagle</item>
+        <item>Hawaiian goose</item>
+        <item>hoatzin</item>
+        <item>hummingbird</item>
+        <item>ibis</item>
+        <item>Ichthyornis</item>
+        <item>incubate</item>
+        <item>jackdaw</item>
+        <item>jay</item>
+        <item>junco</item>
+        <item>kakapo</item>
+        <item>kestrel</item>
+        <item>kingbird</item>
+        <item>kildeer</item>
+        <item>kingfisher</item>
+        <item>kite</item>
+        <item>kiwi</item>
+        <item>kookaberra</item>
+        <item>leghorn</item>
+        <item>longspur</item>
+        <item>loon</item>
+        <item>lorikeet</item>
+        <item>macaw</item>
+        <item>magpie</item>
+        <item>mallard duck</item>
+        <item>marbled murrelet</item>
+        <item>martin</item>
+        <item>meadowlark</item>
+        <item>merganser</item>
+        <item>migrate</item>
+        <item>migration</item>
+        <item>moa</item>
+        <item>mockingbird</item>
+        <item>nandu</item>
+        <item>nene</item>
+        <item>nest</item>
+        <item>nestling</item>
+        <item>nighthawk</item>
+        <item>nightjar</item>
+        <item>nutcracker</item>
+        <item>nuthatch</item>
+        <item>oriole</item>
+        <item>ornithologist</item>
+        <item>ornithology</item>
+        <item>oropendola</item>
+        <item>oxpecker</item>
+        <item>parakeet</item>
+        <item>peafowl</item>
+        <item>penguin</item>
+        <item>peregrine falcon</item>
+        <item>petrel</item>
+        <item>pintail</item>
+        <item>plover</item>
+        <item>prairie chicken</item>
+        <item>pygmy owl</item>
+        <item>quetzal</item>
+        <item>rail</item>
+        <item>razorbill</item>
+        <item>redbilled oxpecker</item>
+        <item>red hooded duck</item>
+        <item>red-tailed hawk</item>
+        <item>redwing</item>
+        <item>rhea</item>
+        <item>Rhode Island red</item>
+        <item>ring-billed gull</item>
+        <item>roadrunner</item>
+        <item>robin</item>
+        <item>rock dove</item>
+        <item>rock pigeon</item>
+        <item>rockhopper penguin</item>
+        <item>rook</item>
+        <item>rookery</item>
+        <item>roost</item>
+        <item>roseate spoonbill</item>
+        <item>ruby-throated hummingbird</item>
+        <item>sandpiper</item>
+        <item>scarlet macaw</item>
+        <item>screech owl</item>
+        <item>scrub jay</item>
+        <item>seabird</item>
+        <item>shearwater</item>
+        <item>shore bird</item>
+        <item>shrike</item>
+        <item>snipe</item>
+        <item>snow goose</item>
+        <item>snowy owl</item>
+        <item>skylark</item>
+        <item>snowbirds</item>
+        <item>spoonbill</item>
+        <item>spotted owl</item>
+        <item>starling</item>
+        <item>stint</item>
+        <item>stork</item>
+        <item>swift</item>
+        <item>syrinx</item>
+        <item>tanager</item>
+        <item>tern</item>
+        <item>thrasher</item>
+        <item>thrush</item>
+        <item>toucan</item>
+        <item>trumpeter swan</item>
+        <item>turtle dove</item>
+        <item>umbrellabird</item>
+        <item>vireo</item>
+        <item>warbler</item>
+        <item>waterthrush</item>
+        <item>waxwing</item>
+        <item>western meadowlark</item>
+        <item>western spotted owl</item>
+        <item>whip-poor-will</item>
+        <item>white dove</item>
+        <item>white pelican</item>
+        <item>wing</item>
+        <item>woodpecker</item>
+        <item>wood thrush</item>
+        <item>xenops</item>
+        <item>yellowthroat</item>
+    </string-array>
+</resources>
